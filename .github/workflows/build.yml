@@ -50,13 +50,16 @@ jobs:
       - name: Validate snapshot
         env:
           ALLOW_NO_PGKB: ${{ inputs.skip_pharmgkb && '--allow-no-pharmgkb' || '' }}
-        run: python -I scripts/validate.py data $ALLOW_NO_PGKB
+        run: |
+          set -o pipefail
+          python -I scripts/validate.py data $ALLOW_NO_PGKB | tee validate.txt
 
       - name: Summarize
         if: always()
         run: |
           {
             echo "## hla-pgx-open snapshot"
+            if [ -f validate.txt ]; then echo '```'; cat validate.txt; echo '```'; fi
             if [ -f data/manifest.json ]; then
               python - <<'PY'
           import json
@@ -77,6 +80,18 @@ jobs:
               echo "no manifest produced"
             fi
           } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Publish the failed build for inspection
+        if: failure()
+        run: |
+          # Logs are hard to reach from some environments; the branch is always readable.
+          git config user.name "Jason Brelsford"
+          git config user.email "jason.brelsford@gmail.com"
+          git checkout -B ci/last-failed-build
+          git add -A data
+          git add -f validate.txt 2>/dev/null || true
+          git commit -q -m "ci: failed build output from run ${{ github.run_id }}" || echo "nothing to commit"
+          git push --force origin ci/last-failed-build
 
       - name: Commit snapshot if the data changed
         run: |
