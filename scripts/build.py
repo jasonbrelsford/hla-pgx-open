@@ -94,9 +94,13 @@ def cpic_get(table: str, **params: str) -> list[dict]:
 
 
 # ----------------------------------------------------------------------------- CPIC
+FIELDS_RE = re.compile(r"\*(\d{2,4}:\d{2,4}(?::\d{2,4}){0,2}[A-Z]?)")
+
+
 def parse_lookup_keys(lookupkey) -> list[tuple[str, str, str | None]]:
-    """{"HLA-A*31:01": "negative", "HLA-B*15:02": "positive"} ->
-    [("HLA-A", "HLA-A*31:01", "negative"), ("HLA-B", "HLA-B*15:02", "positive")]; non-HLA keys are skipped."""
+    """CPIC lookup keys for ALLELE_STATUS genes come as {"HLA-B": "*57:01 positive"}; the allele-keyed
+    form {"HLA-B*57:01": "positive"} is accepted too. Returns [(gene, allele, status)] for every HLA
+    entry; non-HLA keys (CYP2C9 in the phenytoin guideline) are skipped."""
     if isinstance(lookupkey, str):
         try:
             lookupkey = json.loads(lookupkey)
@@ -106,10 +110,24 @@ def parse_lookup_keys(lookupkey) -> list[tuple[str, str, str | None]]:
         return []
     out = []
     for key, value in lookupkey.items():
-        m = ALLELE_RE.search(str(key))
-        if m:
+        key_s, val_s = str(key).strip(), ("" if value is None else str(value).strip())
+        m = ALLELE_RE.search(key_s)
+        if m:  # allele in the key, status in the value
             gene = f"HLA-{m.group(1)}"
-            out.append((gene, f"{gene}*{two_field(m.group(2))}", str(value).strip().lower() if value is not None else None))
+            out.append((gene, f"{gene}*{two_field(m.group(2))}", val_s.lower() or None))
+            continue
+        if not key_s.upper().startswith("HLA-"):
+            continue
+        gene = key_s.upper()
+        mv = ALLELE_RE.search(val_s) or FIELDS_RE.search(val_s)
+        if not mv:
+            continue
+        fields = mv.group(2) if mv.re is ALLELE_RE else mv.group(1)
+        if mv.re is ALLELE_RE:
+            gene = f"HLA-{mv.group(1)}"
+        low = val_s.lower()
+        status = "negative" if "negative" in low else ("positive" if "positive" in low else None)
+        out.append((gene, f"{gene}*{two_field(fields)}", status))
     return out
 
 
@@ -370,34 +388,57 @@ def pharmgkb_rows(zip_bytes: bytes) -> tuple[list[dict], dict]:
 
 
 # ----------------------------------------------------------------------------- HLA-Verify
-def check_alleles(alleles: list[str]) -> dict:
-    """Run every distinct allele through HLA-Verify's /v1/normalize. Non-fatal."""
+def check_alleles(alleles: list[str], *, max_calls: int = 60) -> dict:
+    """Run every distinct allele through HLA-Verify's /v1/normalize. Non-fatal: a failing batch is
+    bisected so one bad name (or a server error on one input) does not blank every column."""
     result = {"url": HLAVERIFY_NORMALIZE, "ok": False, "ipd_release": "", "alleles_checked": 0,
-              "unresolvable": [], "rows": {}, "error": ""}
+              "unresolvable": [], "rows": {}, "error": "", "failed_inputs": [], "errors": [], "calls": 0}
     names = sorted(set(a for a in alleles if a))
     if not names:
         return result
-    try:
-        for i in range(0, len(names), HLAVERIFY_BATCH):
-            batch = names[i:i + HLAVERIFY_BATCH]
+
+    def call(batch: list[str]) -> None:
+        if result["calls"] >= max_calls:
+            result["failed_inputs"].extend(batch)
+            return
+        result["calls"] += 1
+        try:
             resp = http_post_json(HLAVERIFY_NORMALIZE, {"typings": batch})
-            result["ipd_release"] = resp.get("release", result["ipd_release"])
-            for row in resp.get("rows", []):
-                reported = row.get("reported")
-                result["rows"][reported] = {
-                    "current_name": row.get("current_name", ""),
-                    "two_field": row.get("allele_2field", ""),
-                    "flags": ";".join(row.get("flags") or []),
-                }
-                if row.get("allele_2field") == "UNRESOLVABLE":
-                    result["unresolvable"].append(reported)
-        result["ok"] = True
-        result["alleles_checked"] = len(result["rows"])
-        log(f"HLA-Verify: checked {result['alleles_checked']} alleles against IPD-IMGT/HLA {result['ipd_release']}; "
-            f"unresolvable: {result['unresolvable'] or 'none'}")
-    except Exception as e:  # noqa: BLE001
-        result["error"] = str(e)
-        log(f"HLA-Verify: check skipped ({e}); hlaverify_* columns will be empty")
+        except urllib.error.HTTPError as e:
+            body = ""
+            try:
+                body = e.read().decode("utf-8", "replace")[:300]
+            except Exception:  # noqa: BLE001
+                pass
+            result["errors"].append({"status": e.code, "batch_size": len(batch), "body": body})
+            if len(batch) == 1:
+                result["failed_inputs"].extend(batch)
+                return
+            mid = len(batch) // 2
+            call(batch[:mid])
+            call(batch[mid:])
+            return
+        except Exception as e:  # noqa: BLE001
+            result["errors"].append({"status": None, "batch_size": len(batch), "body": str(e)[:300]})
+            result["failed_inputs"].extend(batch)
+            return
+        result["ipd_release"] = resp.get("release", result["ipd_release"])
+        for row in resp.get("rows", []):
+            reported = row.get("reported")
+            result["rows"][reported] = {"current_name": row.get("current_name", ""),
+                                       "two_field": row.get("allele_2field", ""),
+                                       "flags": ";".join(row.get("flags") or [])}
+            if row.get("allele_2field") == "UNRESOLVABLE":
+                result["unresolvable"].append(reported)
+
+    for i in range(0, len(names), HLAVERIFY_BATCH):
+        call(names[i:i + HLAVERIFY_BATCH])
+    result["alleles_checked"] = len(result["rows"])
+    result["ok"] = result["alleles_checked"] > 0
+    if not result["ok"]:
+        result["error"] = (result["errors"][0]["body"] or f"HTTP {result['errors'][0]['status']}") if result["errors"] else "no rows returned"
+    log(f"HLA-Verify: checked {result['alleles_checked']}/{len(names)} alleles against IPD-IMGT/HLA {result['ipd_release'] or '?'} "
+        f"in {result['calls']} call(s); unresolvable: {result['unresolvable'] or 'none'}; failed inputs: {result['failed_inputs'] or 'none'}")
     return result
 
 

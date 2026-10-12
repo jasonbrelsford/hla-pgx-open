@@ -12,10 +12,10 @@
    "phenotypes": {},
    "activityscore": {},
    "allelestatus": {
-    "HLA-B*57:01": "negative"
+    "HLA-B": "HLA-B*57:01 negative"
    },
    "lookupkey": {
-    "HLA-B*57:01": "negative"
+    "HLA-B": "*57:01 negative"
    },
    "population": "general",
    "comments": "n/a",
@@ -36,10 +36,10 @@
    "phenotypes": {},
    "activityscore": {},
    "allelestatus": {
-    "HLA-B*57:01": "positive"
+    "HLA-B": "HLA-B*57:01 positive"
    },
    "lookupkey": {
-    "HLA-B*57:01": "positive"
+    "HLA-B": "*57:01 positive"
    },
    "population": "general",
    "comments": "n/a",
@@ -62,10 +62,10 @@
    "phenotypes": {},
    "activityscore": {},
    "allelestatus": {
-    "HLA-B*58:01": "negative"
+    "HLA-B": "HLA-B*58:01 negative"
    },
    "lookupkey": {
-    "HLA-B*58:01": "negative"
+    "HLA-B": "*58:01 negative"
    },
    "population": "general",
    "comments": "n/a",
@@ -86,10 +86,10 @@
    "phenotypes": {},
    "activityscore": {},
    "allelestatus": {
-    "HLA-B*58:01": "positive"
+    "HLA-B": "HLA-B*58:01 positive"
    },
    "lookupkey": {
-    "HLA-B*58:01": "positive"
+    "HLA-B": "*58:01 positive"
    },
    "population": "general",
    "comments": "n/a",
@@ -113,12 +113,12 @@
    "phenotypes": {},
    "activityscore": {},
    "allelestatus": {
-    "HLA-A*31:01": "negative",
-    "HLA-B*15:02": "negative"
+    "HLA-A": "HLA-A*31:01 negative",
+    "HLA-B": "HLA-B*15:02 negative"
    },
    "lookupkey": {
-    "HLA-A*31:01": "negative",
-    "HLA-B*15:02": "negative"
+    "HLA-A": "*31:01 negative",
+    "HLA-B": "*15:02 negative"
    },
    "population": "general",
    "comments": "n/a",
@@ -139,12 +139,12 @@
    "phenotypes": {},
    "activityscore": {},
    "allelestatus": {
-    "HLA-A*31:01": "negative",
-    "HLA-B*15:02": "positive"
+    "HLA-A": "HLA-A*31:01 negative",
+    "HLA-B": "HLA-B*15:02 positive"
    },
    "lookupkey": {
-    "HLA-A*31:01": "negative",
-    "HLA-B*15:02": "positive"
+    "HLA-A": "*31:01 negative",
+    "HLA-B": "*15:02 positive"
    },
    "population": "general",
    "comments": "n/a",
@@ -165,12 +165,12 @@
    "phenotypes": {},
    "activityscore": {},
    "allelestatus": {
-    "HLA-A*31:01": "positive",
-    "HLA-B*15:02": "negative"
+    "HLA-A": "HLA-A*31:01 positive",
+    "HLA-B": "HLA-B*15:02 negative"
    },
    "lookupkey": {
-    "HLA-A*31:01": "positive",
-    "HLA-B*15:02": "negative"
+    "HLA-A": "*31:01 positive",
+    "HLA-B": "*15:02 negative"
    },
    "population": "general",
    "comments": "n/a",
@@ -191,10 +191,10 @@
    "phenotypes": {},
    "activityscore": {},
    "allelestatus": {
-    "HLA-B*15:02": "positive"
+    "HLA-B": "HLA-B*15:02 positive"
    },
    "lookupkey": {
-    "HLA-B*15:02": "positive"
+    "HLA-B": "*15:02 positive"
    },
    "population": "general",
    "comments": "n/a",
@@ -215,10 +215,10 @@
    "phenotypes": {},
    "activityscore": {},
    "allelestatus": {
-    "HLA-B*15:02": "negative"
+    "HLA-B": "HLA-B*15:02 negative"
    },
    "lookupkey": {
-    "HLA-B*15:02": "negative"
+    "HLA-B": "*15:02 negative"
    },
    "population": "general",
    "comments": "n/a",
@@ -243,11 +243,11 @@
    "activityscore": {},
    "allelestatus": {
     "CYP2C9": "Normal Metabolizer",
-    "HLA-B*15:02": "positive"
+    "HLA-B": "HLA-B*15:02 positive"
    },
    "lookupkey": {
     "CYP2C9": "Normal Metabolizer",
-    "HLA-B*15:02": "positive"
+    "HLA-B": "*15:02 positive"
    },
    "population": "general",
    "comments": "n/a",
@@ -293,11 +293,11 @@
    "activityscore": {},
    "allelestatus": {
     "CYP2C9": "Normal Metabolizer",
-    "HLA-B*15:02": "positive"
+    "HLA-B": "HLA-B*15:02 positive"
    },
    "lookupkey": {
     "CYP2C9": "Normal Metabolizer",
-    "HLA-B*15:02": "positive"
+    "HLA-B": "*15:02 positive"
    },
    "population": "general",
    "comments": "n/a",

@@ -53,6 +53,12 @@ def fixture_hlaverify(alleles: list[str]) -> dict:
 
 class ParseTests(unittest.TestCase):
     def test_lookup_key(self):
+        # the real CPIC shape for ALLELE_STATUS genes
+        self.assertEqual(build.parse_lookup_key({"HLA-B": "*57:01 positive"}), ("HLA-B", "HLA-B*57:01", "positive"))
+        self.assertEqual(build.parse_lookup_keys({"CYP2C9": "*1/*1", "HLA-B": "*15:02 negative"}), [("HLA-B", "HLA-B*15:02", "negative")])
+        self.assertEqual(build.parse_lookup_keys({"HLA-A": "*31:01 negative", "HLA-B": "*15:02 positive"}),
+                         [("HLA-A", "HLA-A*31:01", "negative"), ("HLA-B", "HLA-B*15:02", "positive")])
+        # tolerated alternative shape
         self.assertEqual(build.parse_lookup_key({"HLA-B*57:01": "positive"}), ("HLA-B", "HLA-B*57:01", "positive"))
         self.assertEqual(build.parse_lookup_key('{"HLA-A*31:01": "negative"}'), ("HLA-A", "HLA-A*31:01", "negative"))
         self.assertEqual(build.parse_lookup_key({"CYP2C9": "Normal Metabolizer"}), (None, None, None))
@@ -121,6 +127,7 @@ class PipelineTests(unittest.TestCase):
         # phenytoin's HLA row keeps the full lookup key as its label
         pht = [r for r in flat if r["source"] == "cpic" and r["drug"] == "phenytoin"]
         self.assertTrue(pht and pht[0]["source_allele_label"].startswith("{"), pht)
+        self.assertEqual(pht[0]["allele"], "HLA-B*15:02")
         # Level C pairs appear as gene–drug rows with a blank allele
         dap = [r for r in flat if r["source"] == "cpic" and r["drug"] == "dapsone"]
         self.assertEqual(len(dap), 1)
