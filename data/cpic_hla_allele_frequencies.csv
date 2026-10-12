@@ -1,0 +1,37 @@
+gene,allele,population_group,allele_frequency,allele_record_version,inferred_frequency
+HLA-A,HLA-A*31:01,African American/Afro-Caribbean,0.009934212,153,False
+HLA-A,HLA-A*31:01,American,0.061688375,153,False
+HLA-A,HLA-A*31:01,Central/South Asian,0.03301915,153,False
+HLA-A,HLA-A*31:01,East Asian,0.03451316,153,False
+HLA-A,HLA-A*31:01,European,0.026442025,153,False
+HLA-A,HLA-A*31:01,Latino,0.04523886,153,False
+HLA-A,HLA-A*31:01,Near Eastern,0.011130483,153,False
+HLA-A,HLA-A*31:01,Oceanian,0.010846613,153,False
+HLA-A,HLA-A*31:01,Sub-Saharan African,0.007987001,153,False
+HLA-B,HLA-B*15:02,African American/Afro-Caribbean,0.0009856891,153,False
+HLA-B,HLA-B*15:02,American,0.0016976056,153,False
+HLA-B,HLA-B*15:02,Central/South Asian,0.025917143,153,False
+HLA-B,HLA-B*15:02,East Asian,0.04558424,153,False
+HLA-B,HLA-B*15:02,European,6.5471584e-05,153,False
+HLA-B,HLA-B*15:02,Latino,0.0003047034,153,False
+HLA-B,HLA-B*15:02,Near Eastern,0.00020407543,153,False
+HLA-B,HLA-B*15:02,Oceanian,0.0079676565,153,False
+HLA-B,HLA-B*15:02,Sub-Saharan African,0.0,153,False
+HLA-B,HLA-B*57:01,African American/Afro-Caribbean,0.006087779,153,False
+HLA-B,HLA-B*57:01,American,0.024912989,153,False
+HLA-B,HLA-B*57:01,Central/South Asian,0.06814844,153,False
+HLA-B,HLA-B*57:01,East Asian,0.009806251,153,False
+HLA-B,HLA-B*57:01,European,0.036044996,153,False
+HLA-B,HLA-B*57:01,Latino,0.013904181,153,False
+HLA-B,HLA-B*57:01,Near Eastern,0.02337437,153,False
+HLA-B,HLA-B*57:01,Oceanian,0.015734065,153,False
+HLA-B,HLA-B*57:01,Sub-Saharan African,0.006092622,153,False
+HLA-B,HLA-B*58:01,African American/Afro-Caribbean,0.038205802,147,False
+HLA-B,HLA-B*58:01,American,0.011914154,147,False
+HLA-B,HLA-B*58:01,Central/South Asian,0.041933447,147,False
+HLA-B,HLA-B*58:01,East Asian,0.06041846,147,False
+HLA-B,HLA-B*58:01,European,0.0076844515,147,False
+HLA-B,HLA-B*58:01,Latino,0.013537052,147,False
+HLA-B,HLA-B*58:01,Near Eastern,0.018732347,147,False
+HLA-B,HLA-B*58:01,Oceanian,0.014144436,147,False
+HLA-B,HLA-B*58:01,Sub-Saharan African,0.04351446,147,False

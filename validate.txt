@@ -1,0 +1,32 @@
+ok   CPIC has at least 10 HLA pairs (got 16)
+ok   abacavir/HLA-B pair present
+ok   abacavir/HLA-B is CPIC Level A (got 'A')
+ok   abacavir/HLA-B is 'Testing Required' (got 'Testing Required')
+ok   abacavir/HLA-B carries a guideline URL
+ok   abacavir/HLA-B carries PMIDs
+ok   carbamazepine/HLA-B present at CPIC Level A
+ok   carbamazepine/HLA-A present at CPIC Level A
+ok   allopurinol/HLA-B present at CPIC Level A
+ok   phenytoin/HLA-B present at CPIC Level A
+ok   every recommendation allele is a two-field HLA name
+ok   frequencies cover the four core alleles (have ['HLA-A*31:01', 'HLA-B*15:02', 'HLA-B*57:01', 'HLA-B*58:01'])
+ok   at least 5 biogeographic groups in the frequency table (got 9)
+ok   frequencies are within [0,1]
+ok   at least 15 PharmGKB HLA clinical annotations (got 186)
+ok   PharmGKB has a Level 1 HLA-B*57:01/abacavir annotation
+ok   every PharmGKB row has a URL
+ok   most PharmGKB rows carry allele annotation text
+ok   PharmGKB license file found and copied
+ok   hla_pgx.csv and hla_pgx.json have the same row count (258 vs 258)
+ok   flattened table has at least one row per CPIC recommendation
+ok   every non-empty allele in hla_pgx.csv is a two-field HLA name (bad: [])
+ok   source column is cpic|pharmgkb
+ok   allele_status vocabulary
+note HLA-Verify check not run (HTTP Error 500: Internal Server Error); hlaverify_* columns are empty
+ok   manifest covers 8 files
+FAIL at least 8 HLA allele-status recommendation rows (got 0)
+FAIL HLA-B*57:01 positive → abacavir recommendation text present
+FAIL every CPIC Level A pair used for recommendation has at least one recommendation row (missing: [('HLA-A', 'RxNorm:2002'), ('HLA-B', 'RxNorm:190521'), ('HLA-B', 'RxNorm:2002'), ('HLA-B', 'RxNorm:32624'), ('HLA-B', 'RxNorm:519'), ('HLA-B', 'RxNorm:72236'), ('HLA-B', 'RxNorm:8183')])
+FAIL flattened table has the CPIC HLA-B*57:01 positive / abacavir row
+
+4 problem(s)
