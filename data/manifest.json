@@ -1,0 +1,121 @@
+{
+ "name": "hla-pgx-open",
+ "snapshot_date": "2026-10-12",
+ "built_at": "2026-10-12T23:29:52+00:00",
+ "git_commit": "35bcc18a3bdbf584c5f098fbf3d2411bb4619bda",
+ "license": "CC-BY-SA-4.0",
+ "builder": "scripts/build.py@0.1.0",
+ "sources": {
+  "cpic": {
+   "base_url": "https://api.cpicpgx.org/v1",
+   "ok": true,
+   "pairs": 16,
+   "recommendations": 100,
+   "allele_frequency_rows": 36,
+   "guideline_ids": [
+    100412,
+    100421,
+    100422,
+    100423
+   ]
+  },
+  "pharmgkb": {
+   "url_used": "https://api.clinpgx.org/v1/download/file/data/clinicalAnnotations.zip",
+   "ok": true,
+   "created_stamp": "CREATED_2025-07-05.txt",
+   "annotations": 186,
+   "allele_rows": 240,
+   "license_file_in_zip": "LICENSE.txt",
+   "headers": {
+    "clinical_annotations.tsv": [
+     "Clinical Annotation ID",
+     "Variant/Haplotypes",
+     "Gene",
+     "Level of Evidence",
+     "Level Override",
+     "Level Modifiers",
+     "Score",
+     "Phenotype Category",
+     "PMID Count",
+     "Evidence Count",
+     "Drug(s)",
+     "Phenotype(s)",
+     "Latest History Date (YYYY-MM-DD)",
+     "URL",
+     "Specialty Population"
+    ],
+    "clinical_ann_alleles.tsv": [
+     "Clinical Annotation ID",
+     "Genotype/Allele",
+     "Annotation Text",
+     "Allele Function"
+    ],
+    "clinical_ann_evidence.tsv": [
+     "Clinical Annotation ID",
+     "Evidence ID",
+     "Evidence Type",
+     "Evidence URL",
+     "PMID",
+     "Summary",
+     "Score"
+    ]
+   }
+  },
+  "hlaverify": {
+   "url": "https://api.hlaverify.com/v1/normalize",
+   "ok": true,
+   "ipd_release": "3.65.0",
+   "alleles_checked": 116,
+   "unresolvable": [],
+   "error": "",
+   "failed_inputs": [],
+   "errors": [
+    {
+     "status": 500,
+     "batch_size": 116,
+     "body": "{\"detail\":\"internal error computing the verdict; nothing was stored\"}"
+    }
+   ],
+   "calls": 3
+  }
+ },
+ "files": {
+  "cpic_hla_allele_frequencies.csv": {
+   "sha256": "595ee3c272b85229ddf60d1240bafebfc392db5675d4062269e9b9544b7eb1fc",
+   "bytes": 2040,
+   "rows": 36
+  },
+  "cpic_hla_pairs.csv": {
+   "sha256": "7d15aa432e2b80d89e25a3ef150ffac64da69bdc08360d35418014c563f93efc",
+   "bytes": 2289,
+   "rows": 16
+  },
+  "cpic_hla_recommendations.csv": {
+   "sha256": "4ee1def96b17c35b9c5eaa561ad60e0392f5292033eb4ce2c938739772f9ad76",
+   "bytes": 77372,
+   "rows": 100
+  },
+  "hla_pgx.csv": {
+   "sha256": "50ae41d34200e5f6f24d3739875cc11da7d705164fa1e6dd7676154eba52b430",
+   "bytes": 198354,
+   "rows": 351
+  },
+  "hla_pgx.json": {
+   "sha256": "83b790dc26244d9c4513ea5aa72be580730e0aa92f52de60362bbc0123a96196",
+   "bytes": 393155
+  },
+  "pharmgkb_hla_clinical_annotations.csv": {
+   "sha256": "6aabb33636538be83f04dae56616ad6a14d876c5605eb6d7a9319e9d30a51105",
+   "bytes": 132087,
+   "rows": 240
+  },
+  "sources/cpic_pull.json": {
+   "sha256": "909e9afbb4c25314cb5b57916e7cb7fc10cff79da2e0d7bbd8d509b18a0b4b8f",
+   "bytes": 437
+  },
+  "sources/pharmgkb_LICENSE.txt": {
+   "sha256": "dd1f90ff793fee82338a35fc935c3f778e4860ea3876c024d8e25ed8c7477222",
+   "bytes": 1052
+  }
+ }
+}
