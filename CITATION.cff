@@ -1,0 +1,86 @@
+cff-version: 1.2.0
+message: >-
+  If you use this dataset, cite the upstream sources (CPIC and PharmGKB/ClinPGx — see
+  ATTRIBUTION.md) and this repository as the packaging.
+title: "hla-pgx-open: an open HLA–drug association table built from CPIC and PharmGKB"
+type: dataset
+authors:
+  - family-names: Brelsford
+    given-names: Jason
+    email: hello@hlaverify.com
+repository-code: "https://github.com/jasonbrelsford/hla-pgx-open"
+url: "https://github.com/jasonbrelsford/hla-pgx-open"
+license: CC-BY-SA-4.0
+keywords:
+  - HLA
+  - pharmacogenomics
+  - CPIC
+  - PharmGKB
+  - ClinPGx
+  - IPD-IMGT/HLA
+  - abacavir
+  - carbamazepine
+  - allopurinol
+references:
+  - type: article
+    title: "CPIC: Clinical Pharmacogenetics Implementation Consortium of the Pharmacogenomics Research Network"
+    authors:
+      - family-names: Relling
+        given-names: M. V.
+      - family-names: Klein
+        given-names: T. E.
+    journal: Clinical Pharmacology and Therapeutics
+    year: 2011
+    volume: 89
+    issue: 3
+    start: 464
+    end: 467
+    doi: 10.1038/clpt.2010.279
+  - type: article
+    title: "An Evidence-Based Framework for Evaluating Pharmacogenomics Knowledge for Personalized Medicine"
+    authors:
+      - family-names: Whirl-Carrillo
+        given-names: Michelle
+      - family-names: Huddart
+        given-names: Rachel
+      - family-names: Gong
+        given-names: Li
+      - family-names: Sangkuhl
+        given-names: Katrin
+      - family-names: Thorn
+        given-names: Caroline F.
+      - family-names: Whaley
+        given-names: Ryan
+      - family-names: Klein
+        given-names: Teri E.
+    journal: Clinical Pharmacology and Therapeutics
+    year: 2021
+    volume: 110
+    issue: 3
+    start: 563
+    end: 572
+    doi: 10.1002/cpt.2350
+  - type: article
+    title: "The IPD-IMGT/HLA Database"
+    authors:
+      - family-names: Barker
+        given-names: Dominic J.
+      - family-names: Maccari
+        given-names: Giuseppe
+      - family-names: Georgiou
+        given-names: Xenia
+      - family-names: Cooper
+        given-names: Michael A.
+      - family-names: Flicek
+        given-names: Paul
+      - family-names: Robinson
+        given-names: James
+      - family-names: Marsh
+        given-names: Steven G. E.
+    journal: Nucleic Acids Research
+    year: 2023
+    volume: 51
+    issue: D1
+    start: D1053
+    end: D1060
+    doi: 10.1093/nar/gkac1011

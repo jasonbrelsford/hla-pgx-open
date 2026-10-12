@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+.env.*
+*.log
+.DS_Store
+# raw upstream pulls are kept out of git; the build re-fetches them
+.cache/
+build/
+dist/

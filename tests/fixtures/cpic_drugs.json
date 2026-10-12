@@ -1,0 +1,58 @@
+[
+ {
+  "drugid": "RxNorm:190521",
+  "name": "abacavir"
+ },
+ {
+  "drugid": "RxNorm:2002",
+  "name": "carbamazepine"
+ },
+ {
+  "drugid": "RxNorm:519",
+  "name": "allopurinol"
+ },
+ {
+  "drugid": "RxNorm:8183",
+  "name": "phenytoin"
+ },
+ {
+  "drugid": "RxNorm:32624",
+  "name": "oxcarbazepine"
+ },
+ {
+  "drugid": "RxNorm:72236",
+  "name": "fosphenytoin"
+ },
+ {
+  "drugid": "RxNorm:714438",
+  "name": "pazopanib"
+ },
+ {
+  "drugid": "RxNorm:2020",
+  "name": "carbimazole"
+ },
+ {
+  "drugid": "RxNorm:3108",
+  "name": "dapsone"
+ },
+ {
+  "drugid": "RxNorm:6826",
+  "name": "methazolamide"
+ },
+ {
+  "drugid": "RxNorm:6835",
+  "name": "methimazole"
+ },
+ {
+  "drugid": "RxNorm:53654",
+  "name": "nevirapine"
+ },
+ {
+  "drugid": "RxNorm:8794",
+  "name": "propylthiouracil"
+ },
+ {
+  "drugid": "RxNorm:11289",
+  "name": "warfarin"
+ }
+]

@@ -1,0 +1,48 @@
+[
+ {
+  "id": 100423,
+  "version": 71,
+  "name": "HLA-A, HLA-B and Carbamazepine and Oxcarbazepine",
+  "url": "https://www.clinpgx.org/guideline/PA166251448",
+  "genes": [
+   "HLA-A",
+   "HLA-B"
+  ],
+  "notesonusage": null,
+  "clinpgxid": "PA166251448"
+ },
+ {
+  "id": 100421,
+  "version": 71,
+  "name": "HLA-B and Abacavir",
+  "url": "https://www.clinpgx.org/guideline/PA166251444",
+  "genes": [
+   "HLA-B"
+  ],
+  "notesonusage": null,
+  "clinpgxid": "PA166251444"
+ },
+ {
+  "id": 100412,
+  "version": 71,
+  "name": "CYP2C9, HLA-B and Phenytoin",
+  "url": "https://www.clinpgx.org/guideline/PA166251461",
+  "genes": [
+   "CYP2C9",
+   "HLA-B"
+  ],
+  "notesonusage": null,
+  "clinpgxid": "PA166251461"
+ },
+ {
+  "id": 100422,
+  "version": 71,
+  "name": "HLA-B and Allopurinol",
+  "url": "https://www.clinpgx.org/guideline/PA166251446",
+  "genes": [
+   "HLA-B"
+  ],
+  "notesonusage": null,
+  "clinpgxid": "PA166251446"
+ }
+]

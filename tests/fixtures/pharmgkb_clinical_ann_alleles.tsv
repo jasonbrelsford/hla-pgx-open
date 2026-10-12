@@ -1,0 +1,33 @@
+Clinical Annotation ID	Genotype/Allele	Annotation Text	Allele Function
+1183621172	*57:01	FIXTURE: patients with the HLA-B*57:01 allele may have an increased risk ("quoted" text).	
+1183621172	other	FIXTURE: patients with other genotypes may have a decreased risk as compared to HLA-B*57:01.	
+1183621173	*15:02	FIXTURE: patients with the HLA-B*15:02 allele may have an increased risk ("quoted" text).	
+1183621173	other	FIXTURE: patients with other genotypes may have a decreased risk as compared to HLA-B*15:02.	
+1183621174	*31:01	FIXTURE: patients with the HLA-A*31:01 allele may have an increased risk ("quoted" text).	
+1183621174	other	FIXTURE: patients with other genotypes may have a decreased risk as compared to HLA-A*31:01.	
+1183621175	*58:01	FIXTURE: patients with the HLA-B*58:01 allele may have an increased risk ("quoted" text).	
+1183621175	other	FIXTURE: patients with other genotypes may have a decreased risk as compared to HLA-B*58:01.	
+1183621176	*13:01	FIXTURE: patients with the HLA-B*13:01 allele may have an increased risk ("quoted" text).	
+1183621176	other	FIXTURE: patients with other genotypes may have a decreased risk as compared to HLA-B*13:01.	
+1183621177	*57:01	FIXTURE: patients with the HLA-B*57:01 allele may have an increased risk ("quoted" text).	
+1183621177	other	FIXTURE: patients with other genotypes may have a decreased risk as compared to HLA-B*57:01.	
+1183621178	*32:01	FIXTURE: patients with the HLA-A*32:01 allele may have an increased risk ("quoted" text).	
+1183621178	other	FIXTURE: patients with other genotypes may have a decreased risk as compared to HLA-A*32:01.	
+1183621179	*07:01	FIXTURE: patients with the HLA-DRB1*07:01, HLA-DQA1*02:01 allele may have an increased risk ("quoted" text).	
+1183621179	other	FIXTURE: patients with other genotypes may have a decreased risk as compared to HLA-DRB1*07:01, HLA-DQA1*02:01.	
+1183621180	*35:05	FIXTURE: patients with the HLA-B*35:05 allele may have an increased risk ("quoted" text).	
+1183621180	other	FIXTURE: patients with other genotypes may have a decreased risk as compared to HLA-B*35:05.	
+1183621181	*15:02	FIXTURE: patients with the HLA-B*15:02 allele may have an increased risk ("quoted" text).	
+1183621181	other	FIXTURE: patients with other genotypes may have a decreased risk as compared to HLA-B*15:02.	
+1183621182	*15:02	FIXTURE: patients with the HLA-B*15:02 allele may have an increased risk ("quoted" text).	
+1183621182	other	FIXTURE: patients with other genotypes may have a decreased risk as compared to HLA-B*15:02.	
+1183621183	*15:02	FIXTURE: patients with the HLA-B*15:02 allele may have an increased risk ("quoted" text).	
+1183621183	other	FIXTURE: patients with other genotypes may have a decreased risk as compared to HLA-B*15:02.	
+1183621184	*58:01	FIXTURE: patients with the HLA-B*58:01 allele may have an increased risk ("quoted" text).	
+1183621184	other	FIXTURE: patients with other genotypes may have a decreased risk as compared to HLA-B*58:01.	
+1183621185	*15:01	FIXTURE: patients with the HLA-DRB1*15:01 allele may have an increased risk ("quoted" text).	
+1183621185	other	FIXTURE: patients with other genotypes may have a decreased risk as compared to HLA-DRB1*15:01.	
+1183621186	*57:01	FIXTURE: patients with the HLA-B*57:01 allele may have an increased risk ("quoted" text).	
+1183621186	other	FIXTURE: patients with other genotypes may have a decreased risk as compared to HLA-B*57:01.	
+1183621187	*3	FIXTURE: patients with the CYP2C9*3 allele may have an increased risk ("quoted" text).	
+1183621187	other	FIXTURE: patients with other genotypes may have a decreased risk as compared to CYP2C9*3.	

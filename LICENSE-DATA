@@ -1,0 +1,38 @@
+Data license — everything under data/
+=======================================
+
+The dataset files in this repository (everything under `data/`) are licensed
+under the Creative Commons Attribution-ShareAlike 4.0 International License
+(CC BY-SA 4.0).
+
+  Human-readable summary: https://creativecommons.org/licenses/by-sa/4.0/
+  Full legal code:         https://creativecommons.org/licenses/by-sa/4.0/legalcode
+
+You are free to share and adapt the data for any purpose, including
+commercially, under these terms:
+
+  Attribution — credit the upstream sources and this repository as described
+  in ATTRIBUTION.md, link to the license, and indicate if changes were made.
+
+  ShareAlike — if you remix, transform or build upon the data, you must
+  distribute your contributions under the same license.
+
+Why this license and not another
+--------------------------------
+The table is derived from content published by the Clinical Pharmacogenetics
+Implementation Consortium (CPIC) and by PharmGKB / ClinPGx, both of which make
+their content available under CC BY-SA 4.0. A derived dataset therefore has to
+carry the same license. The upstream license files that ship with the raw
+downloads are copied verbatim into data/sources/ at build time.
+
+Scope
+-----
+This license covers the data files only. The build and validation code in
+scripts/ and tests/ and the CI workflow are licensed separately under the
+Apache License 2.0 (see LICENSE-CODE).
+
+No warranty, not medical advice
+-------------------------------
+The data is provided as is, without warranty of any kind. It is a lookup
+table over published guidelines and annotations and is not clinical decision
+support, not a medical device, and not validated for patient care.

@@ -1,0 +1,17 @@
+Clinical Annotation ID	Variant/Haplotypes	Gene	Level of Evidence	Level Override	Level Modifiers	Score	Phenotype Category	PMID Count	Evidence Count	Drug(s)	Phenotype(s)	Latest History Date (YYYY-MM-DD)	URL	Specialty Population
+1183621172	HLA-B*57:01	HLA-B	1A			13	Toxicity	3	4	abacavir	Drug Hypersensitivity	2026-01-15	https://www.pharmgkb.org/clinicalAnnotation/1183621172	
+1183621173	HLA-B*15:02	HLA-B	1A			13	Toxicity	3	4	carbamazepine	Stevens-Johnson Syndrome	2026-01-15	https://www.pharmgkb.org/clinicalAnnotation/1183621173	
+1183621174	HLA-A*31:01	HLA-A	1A			13	Toxicity	3	4	carbamazepine	Drug Hypersensitivity	2026-01-15	https://www.pharmgkb.org/clinicalAnnotation/1183621174	
+1183621175	HLA-B*58:01	HLA-B	1A			13	Toxicity	3	4	allopurinol	Stevens-Johnson Syndrome	2026-01-15	https://www.pharmgkb.org/clinicalAnnotation/1183621175	
+1183621176	HLA-B*13:01	HLA-B	1A			13	Toxicity	3	4	dapsone	Drug Hypersensitivity	2026-01-15	https://www.pharmgkb.org/clinicalAnnotation/1183621176	
+1183621177	HLA-B*57:01	HLA-B	1B			13	Toxicity	3	4	flucloxacillin	Drug-Induced Liver Injury	2026-01-15	https://www.pharmgkb.org/clinicalAnnotation/1183621177	
+1183621178	HLA-A*32:01	HLA-A	2A			13	Toxicity	3	4	vancomycin	DRESS	2026-01-15	https://www.pharmgkb.org/clinicalAnnotation/1183621178	
+1183621179	HLA-DRB1*07:01, HLA-DQA1*02:01	HLA-DQA1, HLA-DRB1	2B			13	Toxicity	3	4	lapatinib	Drug-Induced Liver Injury	2026-01-15	https://www.pharmgkb.org/clinicalAnnotation/1183621179	
+1183621180	HLA-B*35:05	HLA-B	2B			13	Toxicity	3	4	nevirapine	Drug Hypersensitivity	2026-01-15	https://www.pharmgkb.org/clinicalAnnotation/1183621180	
+1183621181	HLA-B*15:02	HLA-B	1B			13	Toxicity	3	4	phenytoin	Stevens-Johnson Syndrome	2026-01-15	https://www.pharmgkb.org/clinicalAnnotation/1183621181	
+1183621182	HLA-B*15:02	HLA-B	2A			13	Toxicity	3	4	oxcarbazepine	Stevens-Johnson Syndrome	2026-01-15	https://www.pharmgkb.org/clinicalAnnotation/1183621182	
+1183621183	HLA-B*15:02	HLA-B	3			13	Toxicity	3	4	lamotrigine	Stevens-Johnson Syndrome	2026-01-15	https://www.pharmgkb.org/clinicalAnnotation/1183621183	
+1183621184	HLA-B*58:01	HLA-B	3			13	Toxicity	3	4	febuxostat	Drug Hypersensitivity	2026-01-15	https://www.pharmgkb.org/clinicalAnnotation/1183621184	
+1183621185	HLA-DRB1*15:01	HLA-DRB1	3			13	Efficacy	3	4	interferon beta-1a	Multiple Sclerosis	2026-01-15	https://www.pharmgkb.org/clinicalAnnotation/1183621185	
+1183621186	HLA-B*57:01	HLA-B	3			13	Efficacy	3	4	abacavir, lamivudine	HIV Infections	2026-01-15	https://www.pharmgkb.org/clinicalAnnotation/1183621186	
+1183621187	CYP2C9*3	CYP2C9	1A			13	Dosage	3	4	warfarin	Hemorrhage	2026-01-15	https://www.pharmgkb.org/clinicalAnnotation/1183621187	

@@ -1,0 +1,310 @@
+{
+ "100421": [
+  {
+   "id": 8479701,
+   "guidelineid": 100421,
+   "drugid": "RxNorm:190521",
+   "implications": {
+    "HLA-B": "Low or reduced risk of abacavir hypersensitivity"
+   },
+   "drugrecommendation": "Use abacavir per standard dosing guidelines",
+   "classification": "Strong",
+   "phenotypes": {},
+   "activityscore": {},
+   "allelestatus": {
+    "HLA-B*57:01": "negative"
+   },
+   "lookupkey": {
+    "HLA-B*57:01": "negative"
+   },
+   "population": "general",
+   "comments": "n/a",
+   "version": 1,
+   "dosinginformation": false,
+   "alternatedrugavailable": false,
+   "otherprescribingguidance": false
+  },
+  {
+   "id": 8479702,
+   "guidelineid": 100421,
+   "drugid": "RxNorm:190521",
+   "implications": {
+    "HLA-B": "Significantly increased risk of abacavir hypersensitivity"
+   },
+   "drugrecommendation": "Abacavir is not recommended",
+   "classification": "Strong",
+   "phenotypes": {},
+   "activityscore": {},
+   "allelestatus": {
+    "HLA-B*57:01": "positive"
+   },
+   "lookupkey": {
+    "HLA-B*57:01": "positive"
+   },
+   "population": "general",
+   "comments": "n/a",
+   "version": 1,
+   "dosinginformation": false,
+   "alternatedrugavailable": false,
+   "otherprescribingguidance": false
+  }
+ ],
+ "100422": [
+  {
+   "id": 8479801,
+   "guidelineid": 100422,
+   "drugid": "RxNorm:519",
+   "implications": {
+    "HLA-B": "FIXTURE low risk"
+   },
+   "drugrecommendation": "FIXTURE use per standard",
+   "classification": "Strong",
+   "phenotypes": {},
+   "activityscore": {},
+   "allelestatus": {
+    "HLA-B*58:01": "negative"
+   },
+   "lookupkey": {
+    "HLA-B*58:01": "negative"
+   },
+   "population": "general",
+   "comments": "n/a",
+   "version": 1,
+   "dosinginformation": false,
+   "alternatedrugavailable": false,
+   "otherprescribingguidance": false
+  },
+  {
+   "id": 8479802,
+   "guidelineid": 100422,
+   "drugid": "RxNorm:519",
+   "implications": {
+    "HLA-B": "FIXTURE increased risk of SCAR"
+   },
+   "drugrecommendation": "FIXTURE allopurinol is contraindicated",
+   "classification": "Strong",
+   "phenotypes": {},
+   "activityscore": {},
+   "allelestatus": {
+    "HLA-B*58:01": "positive"
+   },
+   "lookupkey": {
+    "HLA-B*58:01": "positive"
+   },
+   "population": "general",
+   "comments": "n/a",
+   "version": 1,
+   "dosinginformation": false,
+   "alternatedrugavailable": false,
+   "otherprescribingguidance": false
+  }
+ ],
+ "100423": [
+  {
+   "id": 8479901,
+   "guidelineid": 100423,
+   "drugid": "RxNorm:2002",
+   "implications": {
+    "HLA-A": "FIXTURE",
+    "HLA-B": "FIXTURE"
+   },
+   "drugrecommendation": "FIXTURE standard dosing",
+   "classification": "Strong",
+   "phenotypes": {},
+   "activityscore": {},
+   "allelestatus": {
+    "HLA-A*31:01": "negative",
+    "HLA-B*15:02": "negative"
+   },
+   "lookupkey": {
+    "HLA-A*31:01": "negative",
+    "HLA-B*15:02": "negative"
+   },
+   "population": "general",
+   "comments": "n/a",
+   "version": 1,
+   "dosinginformation": false,
+   "alternatedrugavailable": false,
+   "otherprescribingguidance": false
+  },
+  {
+   "id": 8479902,
+   "guidelineid": 100423,
+   "drugid": "RxNorm:2002",
+   "implications": {
+    "HLA-B": "FIXTURE increased SJS/TEN risk"
+   },
+   "drugrecommendation": "FIXTURE avoid carbamazepine",
+   "classification": "Strong",
+   "phenotypes": {},
+   "activityscore": {},
+   "allelestatus": {
+    "HLA-A*31:01": "negative",
+    "HLA-B*15:02": "positive"
+   },
+   "lookupkey": {
+    "HLA-A*31:01": "negative",
+    "HLA-B*15:02": "positive"
+   },
+   "population": "general",
+   "comments": "n/a",
+   "version": 1,
+   "dosinginformation": false,
+   "alternatedrugavailable": false,
+   "otherprescribingguidance": false
+  },
+  {
+   "id": 8479903,
+   "guidelineid": 100423,
+   "drugid": "RxNorm:2002",
+   "implications": {
+    "HLA-A": "FIXTURE increased risk"
+   },
+   "drugrecommendation": "FIXTURE consider alternative",
+   "classification": "Strong",
+   "phenotypes": {},
+   "activityscore": {},
+   "allelestatus": {
+    "HLA-A*31:01": "positive",
+    "HLA-B*15:02": "negative"
+   },
+   "lookupkey": {
+    "HLA-A*31:01": "positive",
+    "HLA-B*15:02": "negative"
+   },
+   "population": "general",
+   "comments": "n/a",
+   "version": 1,
+   "dosinginformation": false,
+   "alternatedrugavailable": false,
+   "otherprescribingguidance": false
+  },
+  {
+   "id": 8479904,
+   "guidelineid": 100423,
+   "drugid": "RxNorm:32624",
+   "implications": {
+    "HLA-B": "FIXTURE increased SJS/TEN risk"
+   },
+   "drugrecommendation": "FIXTURE avoid oxcarbazepine",
+   "classification": "Strong",
+   "phenotypes": {},
+   "activityscore": {},
+   "allelestatus": {
+    "HLA-B*15:02": "positive"
+   },
+   "lookupkey": {
+    "HLA-B*15:02": "positive"
+   },
+   "population": "general",
+   "comments": "n/a",
+   "version": 1,
+   "dosinginformation": false,
+   "alternatedrugavailable": false,
+   "otherprescribingguidance": false
+  },
+  {
+   "id": 8479905,
+   "guidelineid": 100423,
+   "drugid": "RxNorm:32624",
+   "implications": {
+    "HLA-B": "FIXTURE"
+   },
+   "drugrecommendation": "FIXTURE standard dosing",
+   "classification": "Strong",
+   "phenotypes": {},
+   "activityscore": {},
+   "allelestatus": {
+    "HLA-B*15:02": "negative"
+   },
+   "lookupkey": {
+    "HLA-B*15:02": "negative"
+   },
+   "population": "general",
+   "comments": "n/a",
+   "version": 1,
+   "dosinginformation": false,
+   "alternatedrugavailable": false,
+   "otherprescribingguidance": false
+  }
+ ],
+ "100412": [
+  {
+   "id": 8480001,
+   "guidelineid": 100412,
+   "drugid": "RxNorm:8183",
+   "implications": {
+    "CYP2C9": "FIXTURE",
+    "HLA-B": "FIXTURE increased risk"
+   },
+   "drugrecommendation": "FIXTURE avoid phenytoin",
+   "classification": "Strong",
+   "phenotypes": {},
+   "activityscore": {},
+   "allelestatus": {
+    "CYP2C9": "Normal Metabolizer",
+    "HLA-B*15:02": "positive"
+   },
+   "lookupkey": {
+    "CYP2C9": "Normal Metabolizer",
+    "HLA-B*15:02": "positive"
+   },
+   "population": "general",
+   "comments": "n/a",
+   "version": 1,
+   "dosinginformation": false,
+   "alternatedrugavailable": false,
+   "otherprescribingguidance": false
+  },
+  {
+   "id": 8480002,
+   "guidelineid": 100412,
+   "drugid": "RxNorm:8183",
+   "implications": {
+    "CYP2C9": "FIXTURE normal"
+   },
+   "drugrecommendation": "FIXTURE standard dosing (no HLA key; must be skipped)",
+   "classification": "Strong",
+   "phenotypes": {},
+   "activityscore": {},
+   "allelestatus": {
+    "CYP2C9": "Normal Metabolizer"
+   },
+   "lookupkey": {
+    "CYP2C9": "Normal Metabolizer"
+   },
+   "population": "general",
+   "comments": "n/a",
+   "version": 1,
+   "dosinginformation": false,
+   "alternatedrugavailable": false,
+   "otherprescribingguidance": false
+  },
+  {
+   "id": 8480003,
+   "guidelineid": 100412,
+   "drugid": "RxNorm:72236",
+   "implications": {
+    "HLA-B": "FIXTURE"
+   },
+   "drugrecommendation": "FIXTURE avoid fosphenytoin",
+   "classification": "Strong",
+   "phenotypes": {},
+   "activityscore": {},
+   "allelestatus": {
+    "CYP2C9": "Normal Metabolizer",
+    "HLA-B*15:02": "positive"
+   },
+   "lookupkey": {
+    "CYP2C9": "Normal Metabolizer",
+    "HLA-B*15:02": "positive"
+   },
+   "population": "general",
+   "comments": "n/a",
+   "version": 1,
+   "dosinginformation": false,
+   "alternatedrugavailable": false,
+   "otherprescribingguidance": false
+  }
+ ]
+}

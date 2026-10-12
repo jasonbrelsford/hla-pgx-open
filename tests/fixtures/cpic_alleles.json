@@ -1,0 +1,78 @@
+[
+ {
+  "id": 110056,
+  "version": 153,
+  "genesymbol": "HLA-B",
+  "name": "HLA-B*57:01",
+  "definitionid": 9002,
+  "frequency": {
+   "Latino": 0.013904181,
+   "American": 0.024912989,
+   "European": 0.036044996,
+   "Oceanian": 0.015734065,
+   "East Asian": 0.009806251,
+   "Near Eastern": 0.02337437,
+   "Central/South Asian": 0.06814844,
+   "Sub-Saharan African": 0.006092622,
+   "African American/Afro-Caribbean": 0.006087779
+  },
+  "inferredfrequency": false
+ },
+ {
+  "id": 110055,
+  "version": 153,
+  "genesymbol": "HLA-B",
+  "name": "HLA-B*15:02",
+  "definitionid": 9001,
+  "frequency": {
+   "Latino": 0.0013904181,
+   "American": 0.0024912989,
+   "European": 0.0036044996000000004,
+   "Oceanian": 0.0015734064999999998,
+   "East Asian": 0.0009806251,
+   "Near Eastern": 0.002337437,
+   "Central/South Asian": 0.0068148440000000005,
+   "Sub-Saharan African": 0.0006092622,
+   "African American/Afro-Caribbean": 0.0006087779
+  },
+  "inferredfrequency": false
+ },
+ {
+  "id": 110057,
+  "version": 147,
+  "genesymbol": "HLA-B",
+  "name": "HLA-B*58:01",
+  "definitionid": 9003,
+  "frequency": {
+   "Latino": 0.0069520905,
+   "American": 0.0124564945,
+   "European": 0.018022498,
+   "Oceanian": 0.0078670325,
+   "East Asian": 0.0049031255,
+   "Near Eastern": 0.011687185,
+   "Central/South Asian": 0.03407422,
+   "Sub-Saharan African": 0.003046311,
+   "African American/Afro-Caribbean": 0.0030438895
+  },
+  "inferredfrequency": false
+ },
+ {
+  "id": 110001,
+  "version": 150,
+  "genesymbol": "HLA-A",
+  "name": "*31:01",
+  "definitionid": 9004,
+  "frequency": {
+   "Latino": 0.004634727,
+   "American": 0.008304329666666667,
+   "European": 0.012014998666666667,
+   "Oceanian": 0.005244688333333333,
+   "East Asian": 0.0032687503333333335,
+   "Near Eastern": 0.007791456666666666,
+   "Central/South Asian": 0.02271614666666667,
+   "Sub-Saharan African": 0.002030874,
+   "African American/Afro-Caribbean": 0.0020292596666666666
+  },
+  "inferredfrequency": false
+ }
+]

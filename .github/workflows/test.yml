@@ -1,0 +1,23 @@
+name: tests
+
+on:
+  pull_request:
+  push:
+    branches-ignore: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  unit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python -I -m unittest discover -s tests -v
+      - name: Validate committed snapshot, if any
+        run: |
+          if [ -f data/manifest.json ]; then python -I scripts/validate.py data; else echo "no snapshot committed yet"; fi

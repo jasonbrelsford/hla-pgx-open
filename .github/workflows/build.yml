@@ -1,0 +1,95 @@
+name: build-dataset
+
+# Rebuilds data/ from CPIC + PharmGKB and commits the snapshot when anything other than the
+# manifest's timestamp changed. Weekly on Mondays, on demand, and whenever the builder changes.
+
+on:
+  workflow_dispatch:
+    inputs:
+      skip_pharmgkb:
+        description: "Build the CPIC layer only (debugging)"
+        type: boolean
+        default: false
+  schedule:
+    - cron: "17 11 * * 1"   # Mondays 11:17 UTC
+  push:
+    branches: [main]
+    paths:
+      - "scripts/**"
+      - ".github/workflows/build.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-dataset
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Offline tests
+        run: python -I -m unittest discover -s tests -v
+
+      - name: Build snapshot
+        env:
+          SKIP_PGKB: ${{ inputs.skip_pharmgkb && '--skip-pharmgkb' || '' }}
+        run: |
+          python -I scripts/build.py --out data $SKIP_PGKB
+
+      - name: Validate snapshot
+        env:
+          ALLOW_NO_PGKB: ${{ inputs.skip_pharmgkb && '--allow-no-pharmgkb' || '' }}
+        run: python -I scripts/validate.py data $ALLOW_NO_PGKB
+
+      - name: Summarize
+        if: always()
+        run: |
+          {
+            echo "## hla-pgx-open snapshot"
+            if [ -f data/manifest.json ]; then
+              python - <<'PY'
+          import json
+          m = json.load(open("data/manifest.json"))
+          print(f"- snapshot: `{m['snapshot_date']}` built {m['built_at']}")
+          s = m["sources"]
+          print(f"- CPIC: {s['cpic']['pairs']} pairs, {s['cpic']['recommendations']} recommendation rows, {s['cpic']['allele_frequency_rows']} frequency rows")
+          print(f"- PharmGKB: ok={s['pharmgkb']['ok']} {s['pharmgkb']['annotations']} annotations, {s['pharmgkb']['allele_rows']} allele rows ({s['pharmgkb'].get('created_stamp','')})")
+          hv = s["hlaverify"]
+          print(f"- HLA-Verify: ok={hv['ok']} release={hv.get('ipd_release','')} checked={hv.get('alleles_checked',0)} unresolvable={hv.get('unresolvable',[])}")
+          print("")
+          print("| file | rows | sha256 |")
+          print("|---|---:|---|")
+          for k, v in m["files"].items():
+              print(f"| {k} | {v.get('rows','')} | `{v['sha256'][:12]}` |")
+          PY
+            else
+              echo "no manifest produced"
+            fi
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Commit snapshot if the data changed
+        run: |
+          git add -A data
+          # Ignore a change that is only the manifest's timestamps: compare the staged diff
+          # with manifest.json excluded. If nothing else moved, leave main untouched.
+          if git diff --cached --quiet -- . ':(exclude)data/manifest.json'; then
+            echo "no data change; not committing"
+            git reset -q
+            exit 0
+          fi
+          SNAP=$(python -c "import json;print(json.load(open('data/manifest.json'))['snapshot_date'])")
+          git config user.name "Jason Brelsford"
+          git config user.email "jason.brelsford@gmail.com"
+          git commit -m "data: snapshot ${SNAP}" -m "Automated rebuild from CPIC and PharmGKB; see data/manifest.json for sources, counts and hashes."
+          git push origin HEAD:main
