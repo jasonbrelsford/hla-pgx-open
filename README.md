@@ -2,7 +2,9 @@
 
 **An open, machine-readable table of HLA–drug associations (pharmacogenomics), built from CPIC and PharmGKB/ClinPGx, with every allele name checked against the current IPD-IMGT/HLA release.**
 
-Status: **v0 — first snapshots.** Data is rebuilt by CI every Monday and on demand; each build is a dated snapshot with a manifest. Treat it as a well-labelled mirror of the upstream sources, not as a new source of truth.
+Status: **v0 — first snapshot published 2026-10-12.** Data is rebuilt by CI every Monday and on demand; each build is a dated snapshot with a manifest. Treat it as a well-labelled mirror of the upstream sources, not as a new source of truth.
+
+At the first snapshot: **16 CPIC HLA gene–drug pairs** (7 Level A with guideline recommendations, 100 allele-status recommendation rows), **186 PharmGKB clinical annotations** on HLA genes (9 at Level 1A), CPIC allele frequencies for 4 alleles × 9 biogeographic groups, and **116 distinct alleles all resolved against IPD-IMGT/HLA 3.65.0** — 351 rows in the flattened table.
 
 Companion dataset to [HLA-Verify](https://hlaverify.com) (deterministic HLA nomenclature verification). The API endpoints that consume this table live there; the data lives here so that it stays open, citable and separately licensed.
 
@@ -25,6 +27,13 @@ Column definitions: [`SCHEMA.md`](SCHEMA.md).
 - Giving an agent, a LIMS, or a notebook one file to join a **two-field HLA allele** to its **known drug associations**, with the evidence level and the citation on the same row.
 - Pairing with an HLA nomenclature normalizer. Lab reports and registry records arrive as G groups, MAC codes, legacy spellings and four-field names; PharmCAT, the reference PGx tool, [requires an outside two-field HLA call](https://pharmcat.clinpgx.org/using/Calling-HLA/) and will not impute one. Normalize first, then look up here.
 - Teaching: the whole actionable HLA layer of pharmacogenomics is small enough to read in one sitting (CPIC lists 16 HLA gene–drug pairs, 7 of them Level A with guideline recommendations, at the 2026-10 snapshot).
+
+## Reading the numbers
+
+- A CPIC guideline that keys on two HLA alleles (carbamazepine: HLA-A\*31:01 and HLA-B\*15:02) has one recommendation per status *combination*, and the flattened table carries one row per allele named in that combination, each with the full lookup key in `source_allele_label`. That is why carbamazepine has many rows; the recommendation text is identical across them by design, not duplicated by accident.
+- PharmGKB also annotates SNPs *inside* HLA genes (rs ids in HLA-G, HLA-C, …). Those rows keep the genotype label (`AA`, `CT`) in `source_allele_label` and have an empty `allele`, because they are not allele associations.
+- The PharmGKB download carries its own creation stamp (`manifest.json` → `sources.pharmgkb.created_stamp`; `CREATED_2025-07-05` at the first snapshot). The CPIC layer is read live from the API at every build.
+- Allele frequencies are CPIC's, by biogeographic group, and are allele frequencies, not carrier frequencies. See `SCHEMA.md`.
 
 ## What it is not
 
@@ -83,8 +92,10 @@ If you use the table, cite the upstream sources (they did the work) and this rep
 
 ## Roadmap
 
-- [ ] First CI snapshot on `main` (this repo's first job).
-- [ ] Confirm the exact license text on both upstream sites against `LICENSE-DATA` before tagging **v1.0.0** ([CPIC licensing](https://cpicpgx.org/?p=1245) · [PharmGKB data usage policy](https://www.pharmgkb.org/page/dataUsagePolicy)).
+- [x] First CI snapshot on `main` (2026-10-12).
+- [x] PharmGKB license confirmed from the file shipped in the download (`data/sources/pharmgkb_LICENSE.txt`: CC BY-SA 4.0).
+- [ ] Confirm CPIC's license text against `LICENSE-DATA` before tagging **v1.0.0** ([CPIC licensing](https://cpicpgx.org/?p=1245)).
+- [ ] Check whether ClinPGx publishes a fresher clinical-annotations export than the 2025-07-05 `clinicalAnnotations.zip`, and switch the builder if so.
 - [ ] Zenodo DOI per release (enable the GitHub integration at <https://zenodo.org/account/settings/github/>, then tag).
 - [ ] HLA-Verify: `GET /v1/pgx/table`, `POST /v1/pgx/screen`, `POST /v1/pgx/pair` and an MCP `pgx_lookup` tool that read this table ([tracking issue](https://github.com/jasonbrelsford/verifiable-science-envs/issues/110)).
 - [ ] Donor–recipient discordance rates by population — waits for a public donor–recipient pair dataset; not computed from non-public data.
