@@ -1,8 +1,8 @@
 {
  "name": "hla-pgx-open",
- "snapshot_date": "2026-10-19",
- "built_at": "2026-10-19T17:32:41+00:00",
- "git_commit": "b4cce77e08ad95cb9737f0591bab9633a089fa8c",
+ "snapshot_date": "2026-10-26",
+ "built_at": "2026-10-26T17:25:47+00:00",
+ "git_commit": "d8078bd1385dcba8dfe09b2920a470b5ddfb2f35",
  "license": "CC-BY-SA-4.0",
  "builder": "scripts/build.py@0.1.0",
  "sources": {
@@ -104,7 +104,7 @@
    "rows": 240
   },
   "sources/cpic_pull.json": {
-   "sha256": "154b450162c9e12f51e20e3cc9a1d7f91840c96c083ad0f2a40c88e26561e240",
+   "sha256": "f6644443382129af36777bf562b6f8df62ff6e1f03cff43be6290ba291a36083",
    "bytes": 437
   },
   "sources/pharmgkb_LICENSE.txt": {
