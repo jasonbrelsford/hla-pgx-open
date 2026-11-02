@@ -25,7 +25,7 @@
   "hlaverify_2field": "",
   "hlaverify_flags": "",
   "ipd_release": "",
-  "source_version": "pair:87"
+  "source_version": "pair:88"
  },
  {
   "source": "cpic",
@@ -53,7 +53,7 @@
   "hlaverify_2field": "",
   "hlaverify_flags": "",
   "ipd_release": "",
-  "source_version": "pair:87"
+  "source_version": "pair:88"
  },
  {
   "source": "pharmgkb",
@@ -309,7 +309,7 @@
  },
  {
   "source": "cpic",
-  "source_record_id": "110087/8480090",
+  "source_record_id": "110087/8608872",
   "gene": "HLA-A",
   "allele": "HLA-A*31:01",
   "allele_status": "negative",
@@ -333,11 +333,11 @@
   "hlaverify_2field": "A*31:01",
   "hlaverify_flags": "",
   "ipd_release": "3.66.0",
-  "source_version": "pair:88;recommendation:1"
+  "source_version": "pair:89;recommendation:1"
  },
  {
   "source": "cpic",
-  "source_record_id": "110087/8480093",
+  "source_record_id": "110087/8608875",
   "gene": "HLA-A",
   "allele": "HLA-A*31:01",
   "allele_status": "negative",
@@ -361,11 +361,11 @@
   "hlaverify_2field": "A*31:01",
   "hlaverify_flags": "",
   "ipd_release": "3.66.0",
-  "source_version": "pair:88;recommendation:1"
+  "source_version": "pair:89;recommendation:1"
  },
  {
   "source": "cpic",
-  "source_record_id": "110087/8480095",
+  "source_record_id": "110087/8608877",
   "gene": "HLA-A",
   "allele": "HLA-A*31:01",
   "allele_status": "negative",
@@ -389,11 +389,11 @@
   "hlaverify_2field": "A*31:01",
   "hlaverify_flags": "",
   "ipd_release": "3.66.0",
-  "source_version": "pair:88;recommendation:1"
+  "source_version": "pair:89;recommendation:1"
  },
  {
   "source": "cpic",
-  "source_record_id": "110087/8480096",
+  "source_record_id": "110087/8608878",
   "gene": "HLA-A",
   "allele": "HLA-A*31:01",
   "allele_status": "negative",
@@ -417,11 +417,11 @@
   "hlaverify_2field": "A*31:01",
   "hlaverify_flags": "",
   "ipd_release": "3.66.0",
-  "source_version": "pair:88;recommendation:1"
+  "source_version": "pair:89;recommendation:1"
  },
  {
   "source": "cpic",
-  "source_record_id": "110087/8480099",
+  "source_record_id": "110087/8608881",
   "gene": "HLA-A",
   "allele": "HLA-A*31:01",
   "allele_status": "negative",
@@ -445,11 +445,11 @@
   "hlaverify_2field": "A*31:01",
   "hlaverify_flags": "",
   "ipd_release": "3.66.0",
-  "source_version": "pair:88;recommendation:1"
+  "source_version": "pair:89;recommendation:1"
  },
  {
   "source": "cpic",
-  "source_record_id": "110087/8480102",
+  "source_record_id": "110087/8608884",
   "gene": "HLA-A",
   "allele": "HLA-A*31:01",
   "allele_status": "negative",
@@ -473,11 +473,11 @@
   "hlaverify_2field": "A*31:01",
   "hlaverify_flags": "",
   "ipd_release": "3.66.0",
-  "source_version": "pair:88;recommendation:1"
+  "source_version": "pair:89;recommendation:1"
  },
  {
   "source": "cpic",
-  "source_record_id": "110087/8480104",
+  "source_record_id": "110087/8608886",
   "gene": "HLA-A",
   "allele": "HLA-A*31:01",
   "allele_status": "negative",
@@ -501,11 +501,11 @@
   "hlaverify_2field": "A*31:01",
   "hlaverify_flags": "",
   "ipd_release": "3.66.0",
-  "source_version": "pair:88;recommendation:1"
+  "source_version": "pair:89;recommendation:1"
  },
  {
   "source": "cpic",
-  "source_record_id": "110087/8480107",
+  "source_record_id": "110087/8608889",
   "gene": "HLA-A",
   "allele": "HLA-A*31:01",
   "allele_status": "negative",
@@ -529,11 +529,11 @@
   "hlaverify_2field": "A*31:01",
   "hlaverify_flags": "",
   "ipd_release": "3.66.0",
-  "source_version": "pair:88;recommendation:1"
+  "source_version": "pair:89;recommendation:1"
  },
  {
   "source": "cpic",
-  "source_record_id": "110087/8480110",
+  "source_record_id": "110087/8608892",
   "gene": "HLA-A",
   "allele": "HLA-A*31:01",
   "allele_status": "negative",
@@ -557,11 +557,11 @@
   "hlaverify_2field": "A*31:01",
   "hlaverify_flags": "",
   "ipd_release": "3.66.0",
-  "source_version": "pair:88;recommendation:1"
+  "source_version": "pair:89;recommendation:1"
  },
  {
   "source": "cpic",
-  "source_record_id": "110087/8480088",
+  "source_record_id": "110087/8608870",
   "gene": "HLA-A",
   "allele": "HLA-A*31:01",
   "allele_status": "positive",
@@ -585,11 +585,11 @@
   "hlaverify_2field": "A*31:01",
   "hlaverify_flags": "",
   "ipd_release": "3.66.0",
-  "source_version": "pair:88;recommendation:1"
+  "source_version": "pair:89;recommendation:1"
  },
  {
   "source": "cpic",
-  "source_record_id": "110087/8480091",
+  "source_record_id": "110087/8608873",
   "gene": "HLA-A",
   "allele": "HLA-A*31:01",
   "allele_status": "positive",
@@ -613,11 +613,11 @@
   "hlaverify_2field": "A*31:01",
   "hlaverify_flags": "",
   "ipd_release": "3.66.0",
-  "source_version": "pair:88;recommendation:1"
+  "source_version": "pair:89;recommendation:1"
  },
  {
   "source": "cpic",
-  "source_record_id": "110087/8480094",
+  "source_record_id": "110087/8608876",
   "gene": "HLA-A",
   "allele": "HLA-A*31:01",
   "allele_status": "positive",
@@ -641,11 +641,11 @@
   "hlaverify_2field": "A*31:01",
   "hlaverify_flags": "",
   "ipd_release": "3.66.0",
-  "source_version": "pair:88;recommendation:1"
+  "source_version": "pair:89;recommendation:1"
  },
  {
   "source": "cpic",
-  "source_record_id": "110087/8480097",
+  "source_record_id": "110087/8608879",
   "gene": "HLA-A",
   "allele": "HLA-A*31:01",
   "allele_status": "positive",
@@ -669,11 +669,11 @@
   "hlaverify_2field": "A*31:01",
   "hlaverify_flags": "",
   "ipd_release": "3.66.0",
-  "source_version": "pair:88;recommendation:1"
+  "source_version": "pair:89;recommendation:1"
  },
  {
   "source": "cpic",
-  "source_record_id": "110087/8480100",
+  "source_record_id": "110087/8608882",
   "gene": "HLA-A",
   "allele": "HLA-A*31:01",
   "allele_status": "positive",
@@ -697,11 +697,11 @@
   "hlaverify_2field": "A*31:01",
   "hlaverify_flags": "",
   "ipd_release": "3.66.0",
-  "source_version": "pair:88;recommendation:1"
+  "source_version": "pair:89;recommendation:1"
  },
  {
   "source": "cpic",
-  "source_record_id": "110087/8480103",
+  "source_record_id": "110087/8608885",
   "gene": "HLA-A",
   "allele": "HLA-A*31:01",
   "allele_status": "positive",
@@ -725,11 +725,11 @@
   "hlaverify_2field": "A*31:01",
   "hlaverify_flags": "",
   "ipd_release": "3.66.0",
-  "source_version": "pair:88;recommendation:1"
+  "source_version": "pair:89;recommendation:1"
  },
  {
   "source": "cpic",
-  "source_record_id": "110087/8480105",
+  "source_record_id": "110087/8608887",
   "gene": "HLA-A",
   "allele": "HLA-A*31:01",
   "allele_status": "positive",
@@ -753,11 +753,11 @@
   "hlaverify_2field": "A*31:01",
   "hlaverify_flags": "",
   "ipd_release": "3.66.0",
-  "source_version": "pair:88;recommendation:1"
+  "source_version": "pair:89;recommendation:1"
  },
  {
   "source": "cpic",
-  "source_record_id": "110087/8480108",
+  "source_record_id": "110087/8608890",
   "gene": "HLA-A",
   "allele": "HLA-A*31:01",
   "allele_status": "positive",
@@ -781,11 +781,11 @@
   "hlaverify_2field": "A*31:01",
   "hlaverify_flags": "",
   "ipd_release": "3.66.0",
-  "source_version": "pair:88;recommendation:1"
+  "source_version": "pair:89;recommendation:1"
  },
  {
   "source": "cpic",
-  "source_record_id": "110087/8480111",
+  "source_record_id": "110087/8608893",
   "gene": "HLA-A",
   "allele": "HLA-A*31:01",
   "allele_status": "positive",
@@ -809,7 +809,7 @@
   "hlaverify_2field": "A*31:01",
   "hlaverify_flags": "",
   "ipd_release": "3.66.0",
-  "source_version": "pair:88;recommendation:1"
+  "source_version": "pair:89;recommendation:1"
  },
  {
   "source": "pharmgkb",
@@ -977,7 +977,7 @@
   "hlaverify_2field": "",
   "hlaverify_flags": "",
   "ipd_release": "",
-  "source_version": "pair:88"
+  "source_version": "pair:89"
  },
  {
   "source": "cpic",
@@ -1005,7 +1005,7 @@
   "hlaverify_2field": "",
   "hlaverify_flags": "",
   "ipd_release": "",
-  "source_version": "pair:86"
+  "source_version": "pair:87"
  },
  {
   "source": "cpic",
@@ -1033,7 +1033,7 @@
   "hlaverify_2field": "",
   "hlaverify_flags": "",
   "ipd_release": "",
-  "source_version": "pair:86"
+  "source_version": "pair:87"
  },
  {
   "source": "cpic",
@@ -1061,7 +1061,7 @@
   "hlaverify_2field": "",
   "hlaverify_flags": "",
   "ipd_release": "",
-  "source_version": "pair:87"
+  "source_version": "pair:88"
  },
  {
   "source": "cpic",
@@ -1089,7 +1089,7 @@
   "hlaverify_2field": "",
   "hlaverify_flags": "",
   "ipd_release": "",
-  "source_version": "pair:87"
+  "source_version": "pair:88"
  },
  {
   "source": "cpic",
@@ -1117,7 +1117,7 @@
   "hlaverify_2field": "",
   "hlaverify_flags": "",
   "ipd_release": "",
-  "source_version": "pair:90"
+  "source_version": "pair:91"
  },
  {
   "source": "cpic",
@@ -1145,7 +1145,7 @@
   "hlaverify_2field": "",
   "hlaverify_flags": "",
   "ipd_release": "",
-  "source_version": "pair:88"
+  "source_version": "pair:89"
  },
  {
   "source": "pharmgkb",
@@ -1597,7 +1597,7 @@
  },
  {
   "source": "cpic",
-  "source_record_id": "110088/8480088",
+  "source_record_id": "110088/8608870",
   "gene": "HLA-B",
   "allele": "HLA-B*15:02",
   "allele_status": "negative",
@@ -1621,11 +1621,11 @@
   "hlaverify_2field": "B*15:02",
   "hlaverify_flags": "",
   "ipd_release": "3.66.0",
-  "source_version": "pair:90;recommendation:1"
+  "source_version": "pair:91;recommendation:1"
  },
  {
   "source": "cpic",
-  "source_record_id": "110088/8480089",
+  "source_record_id": "110088/8608871",
   "gene": "HLA-B",
   "allele": "HLA-B*15:02",
   "allele_status": "negative",
@@ -1649,11 +1649,11 @@
   "hlaverify_2field": "B*15:02",
   "hlaverify_flags": "",
   "ipd_release": "3.66.0",
-  "source_version": "pair:90;recommendation:1"
+  "source_version": "pair:91;recommendation:1"
  },
  {
   "source": "cpic",
-  "source_record_id": "110088/8480095",
+  "source_record_id": "110088/8608877",
   "gene": "HLA-B",
   "allele": "HLA-B*15:02",
   "allele_status": "negative",
@@ -1677,11 +1677,11 @@
   "hlaverify_2field": "B*15:02",
   "hlaverify_flags": "",
   "ipd_release": "3.66.0",
-  "source_version": "pair:90;recommendation:1"
+  "source_version": "pair:91;recommendation:1"
  },
  {
   "source": "cpic",
-  "source_record_id": "110088/8480096",
+  "source_record_id": "110088/8608878",
   "gene": "HLA-B",
   "allele": "HLA-B*15:02",
   "allele_status": "negative",
@@ -1705,11 +1705,11 @@
   "hlaverify_2field": "B*15:02",
   "hlaverify_flags": "",
   "ipd_release": "3.66.0",
-  "source_version": "pair:90;recommendation:1"
+  "source_version": "pair:91;recommendation:1"
  },
  {
   "source": "cpic",
-  "source_record_id": "110088/8480097",
+  "source_record_id": "110088/8608879",
   "gene": "HLA-B",
   "allele": "HLA-B*15:02",
   "allele_status": "negative",
@@ -1733,11 +1733,11 @@
   "hlaverify_2field": "B*15:02",
   "hlaverify_flags": "",
   "ipd_release": "3.66.0",
-  "source_version": "pair:90;recommendation:1"
+  "source_version": "pair:91;recommendation:1"
  },
  {
   "source": "cpic",
-  "source_record_id": "110088/8480098",
+  "source_record_id": "110088/8608880",
   "gene": "HLA-B",
   "allele": "HLA-B*15:02",
   "allele_status": "negative",
@@ -1761,11 +1761,11 @@
   "hlaverify_2field": "B*15:02",
   "hlaverify_flags": "",
   "ipd_release": "3.66.0",
-  "source_version": "pair:90;recommendation:1"
+  "source_version": "pair:91;recommendation:1"
  },
  {
   "source": "cpic",
-  "source_record_id": "110088/8480104",
+  "source_record_id": "110088/8608886",
   "gene": "HLA-B",
   "allele": "HLA-B*15:02",
   "allele_status": "negative",
@@ -1789,11 +1789,11 @@
   "hlaverify_2field": "B*15:02",
   "hlaverify_flags": "",
   "ipd_release": "3.66.0",
-  "source_version": "pair:90;recommendation:1"
+  "source_version": "pair:91;recommendation:1"
  },
  {
   "source": "cpic",
-  "source_record_id": "110088/8480105",
+  "source_record_id": "110088/8608887",
   "gene": "HLA-B",
   "allele": "HLA-B*15:02",
   "allele_status": "negative",
@@ -1817,11 +1817,11 @@
   "hlaverify_2field": "B*15:02",
   "hlaverify_flags": "",
   "ipd_release": "3.66.0",
-  "source_version": "pair:90;recommendation:1"
+  "source_version": "pair:91;recommendation:1"
  },
  {
   "source": "cpic",
-  "source_record_id": "110088/8480106",
+  "source_record_id": "110088/8608888",
   "gene": "HLA-B",
   "allele": "HLA-B*15:02",
   "allele_status": "negative",
@@ -1845,11 +1845,11 @@
   "hlaverify_2field": "B*15:02",
   "hlaverify_flags": "",
   "ipd_release": "3.66.0",
-  "source_version": "pair:90;recommendation:1"
+  "source_version": "pair:91;recommendation:1"
  },
  {
   "source": "cpic",
-  "source_record_id": "110088/8480090",
+  "source_record_id": "110088/8608872",
   "gene": "HLA-B",
   "allele": "HLA-B*15:02",
   "allele_status": "positive",
@@ -1873,11 +1873,11 @@
   "hlaverify_2field": "B*15:02",
   "hlaverify_flags": "",
   "ipd_release": "3.66.0",
-  "source_version": "pair:90;recommendation:1"
+  "source_version": "pair:91;recommendation:1"
  },
  {
   "source": "cpic",
-  "source_record_id": "110088/8480091",
+  "source_record_id": "110088/8608873",
   "gene": "HLA-B",
   "allele": "HLA-B*15:02",
   "allele_status": "positive",
@@ -1901,11 +1901,11 @@
   "hlaverify_2field": "B*15:02",
   "hlaverify_flags": "",
   "ipd_release": "3.66.0",
-  "source_version": "pair:90;recommendation:1"
+  "source_version": "pair:91;recommendation:1"
  },
  {
   "source": "cpic",
-  "source_record_id": "110088/8480092",
+  "source_record_id": "110088/8608874",
   "gene": "HLA-B",
   "allele": "HLA-B*15:02",
   "allele_status": "positive",
@@ -1929,11 +1929,11 @@
   "hlaverify_2field": "B*15:02",
   "hlaverify_flags": "",
   "ipd_release": "3.66.0",
-  "source_version": "pair:90;recommendation:1"
+  "source_version": "pair:91;recommendation:1"
  },
  {
   "source": "cpic",
-  "source_record_id": "110088/8480099",
+  "source_record_id": "110088/8608881",
   "gene": "HLA-B",
   "allele": "HLA-B*15:02",
   "allele_status": "positive",
@@ -1957,11 +1957,11 @@
   "hlaverify_2field": "B*15:02",
   "hlaverify_flags": "",
   "ipd_release": "3.66.0",
-  "source_version": "pair:90;recommendation:1"
+  "source_version": "pair:91;recommendation:1"
  },
  {
   "source": "cpic",
-  "source_record_id": "110088/8480100",
+  "source_record_id": "110088/8608882",
   "gene": "HLA-B",
   "allele": "HLA-B*15:02",
   "allele_status": "positive",
@@ -1985,11 +1985,11 @@
   "hlaverify_2field": "B*15:02",
   "hlaverify_flags": "",
   "ipd_release": "3.66.0",
-  "source_version": "pair:90;recommendation:1"
+  "source_version": "pair:91;recommendation:1"
  },
  {
   "source": "cpic",
-  "source_record_id": "110088/8480101",
+  "source_record_id": "110088/8608883",
   "gene": "HLA-B",
   "allele": "HLA-B*15:02",
   "allele_status": "positive",
@@ -2013,11 +2013,11 @@
   "hlaverify_2field": "B*15:02",
   "hlaverify_flags": "",
   "ipd_release": "3.66.0",
-  "source_version": "pair:90;recommendation:1"
+  "source_version": "pair:91;recommendation:1"
  },
  {
   "source": "cpic",
-  "source_record_id": "110088/8480107",
+  "source_record_id": "110088/8608889",
   "gene": "HLA-B",
   "allele": "HLA-B*15:02",
   "allele_status": "positive",
@@ -2041,11 +2041,11 @@
   "hlaverify_2field": "B*15:02",
   "hlaverify_flags": "",
   "ipd_release": "3.66.0",
-  "source_version": "pair:90;recommendation:1"
+  "source_version": "pair:91;recommendation:1"
  },
  {
   "source": "cpic",
-  "source_record_id": "110088/8480108",
+  "source_record_id": "110088/8608890",
   "gene": "HLA-B",
   "allele": "HLA-B*15:02",
   "allele_status": "positive",
@@ -2069,11 +2069,11 @@
   "hlaverify_2field": "B*15:02",
   "hlaverify_flags": "",
   "ipd_release": "3.66.0",
-  "source_version": "pair:90;recommendation:1"
+  "source_version": "pair:91;recommendation:1"
  },
  {
   "source": "cpic",
-  "source_record_id": "110088/8480109",
+  "source_record_id": "110088/8608891",
   "gene": "HLA-B",
   "allele": "HLA-B*15:02",
   "allele_status": "positive",
@@ -2097,11 +2097,11 @@
   "hlaverify_2field": "B*15:02",
   "hlaverify_flags": "",
   "ipd_release": "3.66.0",
-  "source_version": "pair:90;recommendation:1"
+  "source_version": "pair:91;recommendation:1"
  },
  {
   "source": "cpic",
-  "source_record_id": "110102/8481292",
+  "source_record_id": "110102/8610096",
   "gene": "HLA-B",
   "allele": "HLA-B*15:02",
   "allele_status": "negative",
@@ -2125,11 +2125,11 @@
   "hlaverify_2field": "B*15:02",
   "hlaverify_flags": "",
   "ipd_release": "3.66.0",
-  "source_version": "pair:88;recommendation:1"
+  "source_version": "pair:89;recommendation:1"
  },
  {
   "source": "cpic",
-  "source_record_id": "110102/8481293",
+  "source_record_id": "110102/8610097",
   "gene": "HLA-B",
   "allele": "HLA-B*15:02",
   "allele_status": "negative",
@@ -2153,11 +2153,11 @@
   "hlaverify_2field": "B*15:02",
   "hlaverify_flags": "",
   "ipd_release": "3.66.0",
-  "source_version": "pair:88;recommendation:1"
+  "source_version": "pair:89;recommendation:1"
  },
  {
   "source": "cpic",
-  "source_record_id": "110102/8481294",
+  "source_record_id": "110102/8610098",
   "gene": "HLA-B",
   "allele": "HLA-B*15:02",
   "allele_status": "negative",
@@ -2181,11 +2181,11 @@
   "hlaverify_2field": "B*15:02",
   "hlaverify_flags": "",
   "ipd_release": "3.66.0",
-  "source_version": "pair:88;recommendation:1"
+  "source_version": "pair:89;recommendation:1"
  },
  {
   "source": "cpic",
-  "source_record_id": "110102/8481295",
+  "source_record_id": "110102/8610099",
   "gene": "HLA-B",
   "allele": "HLA-B*15:02",
   "allele_status": "negative",
@@ -2209,11 +2209,11 @@
   "hlaverify_2field": "B*15:02",
   "hlaverify_flags": "",
   "ipd_release": "3.66.0",
-  "source_version": "pair:88;recommendation:1"
+  "source_version": "pair:89;recommendation:1"
  },
  {
   "source": "cpic",
-  "source_record_id": "110102/8481296",
+  "source_record_id": "110102/8610100",
   "gene": "HLA-B",
   "allele": "HLA-B*15:02",
   "allele_status": "negative",
@@ -2237,11 +2237,11 @@
   "hlaverify_2field": "B*15:02",
   "hlaverify_flags": "",
   "ipd_release": "3.66.0",
-  "source_version": "pair:88;recommendation:1"
+  "source_version": "pair:89;recommendation:1"
  },
  {
   "source": "cpic",
-  "source_record_id": "110102/8481297",
+  "source_record_id": "110102/8610101",
   "gene": "HLA-B",
   "allele": "HLA-B*15:02",
   "allele_status": "negative",
@@ -2265,11 +2265,11 @@
   "hlaverify_2field": "B*15:02",
   "hlaverify_flags": "",
   "ipd_release": "3.66.0",
-  "source_version": "pair:88;recommendation:1"
+  "source_version": "pair:89;recommendation:1"
  },
  {
   "source": "cpic",
-  "source_record_id": "110102/8481310",
+  "source_record_id": "110102/8610114",
   "gene": "HLA-B",
   "allele": "HLA-B*15:02",
   "allele_status": "negative",
@@ -2293,11 +2293,11 @@
   "hlaverify_2field": "B*15:02",
   "hlaverify_flags": "",
   "ipd_release": "3.66.0",
-  "source_version": "pair:88;recommendation:1"
+  "source_version": "pair:89;recommendation:1"
  },
  {
   "source": "cpic",
-  "source_record_id": "110102/8481312",
+  "source_record_id": "110102/8610116",
   "gene": "HLA-B",
   "allele": "HLA-B*15:02",
   "allele_status": "negative",
@@ -2321,11 +2321,11 @@
   "hlaverify_2field": "B*15:02",
   "hlaverify_flags": "",
   "ipd_release": "3.66.0",
-  "source_version": "pair:88;recommendation:1"
+  "source_version": "pair:89;recommendation:1"
  },
  {
   "source": "cpic",
-  "source_record_id": "110102/8481313",
+  "source_record_id": "110102/8610117",
   "gene": "HLA-B",
   "allele": "HLA-B*15:02",
   "allele_status": "negative",
@@ -2349,11 +2349,11 @@
   "hlaverify_2field": "B*15:02",
   "hlaverify_flags": "",
   "ipd_release": "3.66.0",
-  "source_version": "pair:88;recommendation:1"
+  "source_version": "pair:89;recommendation:1"
  },
  {
   "source": "cpic",
-  "source_record_id": "110102/8481314",
+  "source_record_id": "110102/8610118",
   "gene": "HLA-B",
   "allele": "HLA-B*15:02",
   "allele_status": "negative",
@@ -2377,11 +2377,11 @@
   "hlaverify_2field": "B*15:02",
   "hlaverify_flags": "",
   "ipd_release": "3.66.0",
-  "source_version": "pair:88;recommendation:1"
+  "source_version": "pair:89;recommendation:1"
  },
  {
   "source": "cpic",
-  "source_record_id": "110102/8481315",
+  "source_record_id": "110102/8610119",
   "gene": "HLA-B",
   "allele": "HLA-B*15:02",
   "allele_status": "negative",
@@ -2405,11 +2405,11 @@
   "hlaverify_2field": "B*15:02",
   "hlaverify_flags": "",
   "ipd_release": "3.66.0",
-  "source_version": "pair:88;recommendation:1"
+  "source_version": "pair:89;recommendation:1"
  },
  {
   "source": "cpic",
-  "source_record_id": "110102/8481316",
+  "source_record_id": "110102/8610120",
   "gene": "HLA-B",
   "allele": "HLA-B*15:02",
   "allele_status": "negative",
@@ -2433,11 +2433,11 @@
   "hlaverify_2field": "B*15:02",
   "hlaverify_flags": "",
   "ipd_release": "3.66.0",
-  "source_version": "pair:88;recommendation:1"
+  "source_version": "pair:89;recommendation:1"
  },
  {
   "source": "cpic",
-  "source_record_id": "110102/8481317",
+  "source_record_id": "110102/8610121",
   "gene": "HLA-B",
   "allele": "HLA-B*15:02",
   "allele_status": "negative",
@@ -2461,11 +2461,11 @@
   "hlaverify_2field": "B*15:02",
   "hlaverify_flags": "",
   "ipd_release": "3.66.0",
-  "source_version": "pair:88;recommendation:1"
+  "source_version": "pair:89;recommendation:1"
  },
  {
   "source": "cpic",
-  "source_record_id": "110102/8481330",
+  "source_record_id": "110102/8610134",
   "gene": "HLA-B",
   "allele": "HLA-B*15:02",
   "allele_status": "negative",
@@ -2489,11 +2489,11 @@
   "hlaverify_2field": "B*15:02",
   "hlaverify_flags": "",
   "ipd_release": "3.66.0",
-  "source_version": "pair:88;recommendation:1"
+  "source_version": "pair:89;recommendation:1"
  },
  {
   "source": "cpic",
-  "source_record_id": "110102/8481298",
+  "source_record_id": "110102/8610102",
   "gene": "HLA-B",
   "allele": "HLA-B*15:02",
   "allele_status": "positive",
@@ -2517,11 +2517,11 @@
   "hlaverify_2field": "B*15:02",
   "hlaverify_flags": "",
   "ipd_release": "3.66.0",
-  "source_version": "pair:88;recommendation:1"
+  "source_version": "pair:89;recommendation:1"
  },
  {
   "source": "cpic",
-  "source_record_id": "110102/8481299",
+  "source_record_id": "110102/8610103",
   "gene": "HLA-B",
   "allele": "HLA-B*15:02",
   "allele_status": "positive",
@@ -2545,11 +2545,11 @@
   "hlaverify_2field": "B*15:02",
   "hlaverify_flags": "",
   "ipd_release": "3.66.0",
-  "source_version": "pair:88;recommendation:1"
+  "source_version": "pair:89;recommendation:1"
  },
  {
   "source": "cpic",
-  "source_record_id": "110102/8481300",
+  "source_record_id": "110102/8610104",
   "gene": "HLA-B",
   "allele": "HLA-B*15:02",
   "allele_status": "positive",
@@ -2573,11 +2573,11 @@
   "hlaverify_2field": "B*15:02",
   "hlaverify_flags": "",
   "ipd_release": "3.66.0",
-  "source_version": "pair:88;recommendation:1"
+  "source_version": "pair:89;recommendation:1"
  },
  {
   "source": "cpic",
-  "source_record_id": "110102/8481301",
+  "source_record_id": "110102/8610105",
   "gene": "HLA-B",
   "allele": "HLA-B*15:02",
   "allele_status": "positive",
@@ -2601,11 +2601,11 @@
   "hlaverify_2field": "B*15:02",
   "hlaverify_flags": "",
   "ipd_release": "3.66.0",
-  "source_version": "pair:88;recommendation:1"
+  "source_version": "pair:89;recommendation:1"
  },
  {
   "source": "cpic",
-  "source_record_id": "110102/8481302",
+  "source_record_id": "110102/8610106",
   "gene": "HLA-B",
   "allele": "HLA-B*15:02",
   "allele_status": "positive",
@@ -2629,11 +2629,11 @@
   "hlaverify_2field": "B*15:02",
   "hlaverify_flags": "",
   "ipd_release": "3.66.0",
-  "source_version": "pair:88;recommendation:1"
+  "source_version": "pair:89;recommendation:1"
  },
  {
   "source": "cpic",
-  "source_record_id": "110102/8481303",
+  "source_record_id": "110102/8610107",
   "gene": "HLA-B",
   "allele": "HLA-B*15:02",
   "allele_status": "positive",
@@ -2657,11 +2657,11 @@
   "hlaverify_2field": "B*15:02",
   "hlaverify_flags": "",
   "ipd_release": "3.66.0",
-  "source_version": "pair:88;recommendation:1"
+  "source_version": "pair:89;recommendation:1"
  },
  {
   "source": "cpic",
-  "source_record_id": "110102/8481311",
+  "source_record_id": "110102/8610115",
   "gene": "HLA-B",
   "allele": "HLA-B*15:02",
   "allele_status": "positive",
@@ -2685,11 +2685,11 @@
   "hlaverify_2field": "B*15:02",
   "hlaverify_flags": "",
   "ipd_release": "3.66.0",
-  "source_version": "pair:88;recommendation:1"
+  "source_version": "pair:89;recommendation:1"
  },
  {
   "source": "cpic",
-  "source_record_id": "110102/8481318",
+  "source_record_id": "110102/8610122",
   "gene": "HLA-B",
   "allele": "HLA-B*15:02",
   "allele_status": "positive",
@@ -2713,11 +2713,11 @@
   "hlaverify_2field": "B*15:02",
   "hlaverify_flags": "",
   "ipd_release": "3.66.0",
-  "source_version": "pair:88;recommendation:1"
+  "source_version": "pair:89;recommendation:1"
  },
  {
   "source": "cpic",
-  "source_record_id": "110102/8481319",
+  "source_record_id": "110102/8610123",
   "gene": "HLA-B",
   "allele": "HLA-B*15:02",
   "allele_status": "positive",
@@ -2741,11 +2741,11 @@
   "hlaverify_2field": "B*15:02",
   "hlaverify_flags": "",
   "ipd_release": "3.66.0",
-  "source_version": "pair:88;recommendation:1"
+  "source_version": "pair:89;recommendation:1"
  },
  {
   "source": "cpic",
-  "source_record_id": "110102/8481320",
+  "source_record_id": "110102/8610124",
   "gene": "HLA-B",
   "allele": "HLA-B*15:02",
   "allele_status": "positive",
@@ -2769,11 +2769,11 @@
   "hlaverify_2field": "B*15:02",
   "hlaverify_flags": "",
   "ipd_release": "3.66.0",
-  "source_version": "pair:88;recommendation:1"
+  "source_version": "pair:89;recommendation:1"
  },
  {
   "source": "cpic",
-  "source_record_id": "110102/8481321",
+  "source_record_id": "110102/8610125",
   "gene": "HLA-B",
   "allele": "HLA-B*15:02",
   "allele_status": "positive",
@@ -2797,11 +2797,11 @@
   "hlaverify_2field": "B*15:02",
   "hlaverify_flags": "",
   "ipd_release": "3.66.0",
-  "source_version": "pair:88;recommendation:1"
+  "source_version": "pair:89;recommendation:1"
  },
  {
   "source": "cpic",
-  "source_record_id": "110102/8481322",
+  "source_record_id": "110102/8610126",
   "gene": "HLA-B",
   "allele": "HLA-B*15:02",
   "allele_status": "positive",
@@ -2825,11 +2825,11 @@
   "hlaverify_2field": "B*15:02",
   "hlaverify_flags": "",
   "ipd_release": "3.66.0",
-  "source_version": "pair:88;recommendation:1"
+  "source_version": "pair:89;recommendation:1"
  },
  {
   "source": "cpic",
-  "source_record_id": "110102/8481323",
+  "source_record_id": "110102/8610127",
   "gene": "HLA-B",
   "allele": "HLA-B*15:02",
   "allele_status": "positive",
@@ -2853,11 +2853,11 @@
   "hlaverify_2field": "B*15:02",
   "hlaverify_flags": "",
   "ipd_release": "3.66.0",
-  "source_version": "pair:88;recommendation:1"
+  "source_version": "pair:89;recommendation:1"
  },
  {
   "source": "cpic",
-  "source_record_id": "110102/8481331",
+  "source_record_id": "110102/8610135",
   "gene": "HLA-B",
   "allele": "HLA-B*15:02",
   "allele_status": "positive",
@@ -2881,11 +2881,11 @@
   "hlaverify_2field": "B*15:02",
   "hlaverify_flags": "",
   "ipd_release": "3.66.0",
-  "source_version": "pair:88;recommendation:1"
+  "source_version": "pair:89;recommendation:1"
  },
  {
   "source": "cpic",
-  "source_record_id": "110120/8481181",
+  "source_record_id": "110120/8609985",
   "gene": "HLA-B",
   "allele": "HLA-B*15:02",
   "allele_status": "negative",
@@ -2909,11 +2909,11 @@
   "hlaverify_2field": "B*15:02",
   "hlaverify_flags": "",
   "ipd_release": "3.66.0",
-  "source_version": "pair:89;recommendation:1"
+  "source_version": "pair:90;recommendation:1"
  },
  {
   "source": "cpic",
-  "source_record_id": "110120/8481183",
+  "source_record_id": "110120/8609987",
   "gene": "HLA-B",
   "allele": "HLA-B*15:02",
   "allele_status": "negative",
@@ -2937,11 +2937,11 @@
   "hlaverify_2field": "B*15:02",
   "hlaverify_flags": "",
   "ipd_release": "3.66.0",
-  "source_version": "pair:89;recommendation:1"
+  "source_version": "pair:90;recommendation:1"
  },
  {
   "source": "cpic",
-  "source_record_id": "110120/8481182",
+  "source_record_id": "110120/8609986",
   "gene": "HLA-B",
   "allele": "HLA-B*15:02",
   "allele_status": "positive",
@@ -2965,11 +2965,11 @@
   "hlaverify_2field": "B*15:02",
   "hlaverify_flags": "",
   "ipd_release": "3.66.0",
-  "source_version": "pair:89;recommendation:1"
+  "source_version": "pair:90;recommendation:1"
  },
  {
   "source": "cpic",
-  "source_record_id": "110120/8481184",
+  "source_record_id": "110120/8609988",
   "gene": "HLA-B",
   "allele": "HLA-B*15:02",
   "allele_status": "positive",
@@ -2993,11 +2993,11 @@
   "hlaverify_2field": "B*15:02",
   "hlaverify_flags": "",
   "ipd_release": "3.66.0",
-  "source_version": "pair:89;recommendation:1"
+  "source_version": "pair:90;recommendation:1"
  },
  {
   "source": "cpic",
-  "source_record_id": "110128/8481252",
+  "source_record_id": "110128/8610056",
   "gene": "HLA-B",
   "allele": "HLA-B*15:02",
   "allele_status": "negative",
@@ -3021,11 +3021,11 @@
   "hlaverify_2field": "B*15:02",
   "hlaverify_flags": "",
   "ipd_release": "3.66.0",
-  "source_version": "pair:87;recommendation:1"
+  "source_version": "pair:88;recommendation:1"
  },
  {
   "source": "cpic",
-  "source_record_id": "110128/8481253",
+  "source_record_id": "110128/8610057",
   "gene": "HLA-B",
   "allele": "HLA-B*15:02",
   "allele_status": "negative",
@@ -3049,11 +3049,11 @@
   "hlaverify_2field": "B*15:02",
   "hlaverify_flags": "",
   "ipd_release": "3.66.0",
-  "source_version": "pair:87;recommendation:1"
+  "source_version": "pair:88;recommendation:1"
  },
  {
   "source": "cpic",
-  "source_record_id": "110128/8481254",
+  "source_record_id": "110128/8610058",
   "gene": "HLA-B",
   "allele": "HLA-B*15:02",
   "allele_status": "negative",
@@ -3077,11 +3077,11 @@
   "hlaverify_2field": "B*15:02",
   "hlaverify_flags": "",
   "ipd_release": "3.66.0",
-  "source_version": "pair:87;recommendation:1"
+  "source_version": "pair:88;recommendation:1"
  },
  {
   "source": "cpic",
-  "source_record_id": "110128/8481255",
+  "source_record_id": "110128/8610059",
   "gene": "HLA-B",
   "allele": "HLA-B*15:02",
   "allele_status": "negative",
@@ -3105,11 +3105,11 @@
   "hlaverify_2field": "B*15:02",
   "hlaverify_flags": "",
   "ipd_release": "3.66.0",
-  "source_version": "pair:87;recommendation:1"
+  "source_version": "pair:88;recommendation:1"
  },
  {
   "source": "cpic",
-  "source_record_id": "110128/8481256",
+  "source_record_id": "110128/8610060",
   "gene": "HLA-B",
   "allele": "HLA-B*15:02",
   "allele_status": "negative",
@@ -3133,11 +3133,11 @@
   "hlaverify_2field": "B*15:02",
   "hlaverify_flags": "",
   "ipd_release": "3.66.0",
-  "source_version": "pair:87;recommendation:1"
+  "source_version": "pair:88;recommendation:1"
  },
  {
   "source": "cpic",
-  "source_record_id": "110128/8481257",
+  "source_record_id": "110128/8610061",
   "gene": "HLA-B",
   "allele": "HLA-B*15:02",
   "allele_status": "negative",
@@ -3161,11 +3161,11 @@
   "hlaverify_2field": "B*15:02",
   "hlaverify_flags": "",
   "ipd_release": "3.66.0",
-  "source_version": "pair:87;recommendation:1"
+  "source_version": "pair:88;recommendation:1"
  },
  {
   "source": "cpic",
-  "source_record_id": "110128/8481270",
+  "source_record_id": "110128/8610074",
   "gene": "HLA-B",
   "allele": "HLA-B*15:02",
   "allele_status": "negative",
@@ -3189,11 +3189,11 @@
   "hlaverify_2field": "B*15:02",
   "hlaverify_flags": "",
   "ipd_release": "3.66.0",
-  "source_version": "pair:87;recommendation:1"
+  "source_version": "pair:88;recommendation:1"
  },
  {
   "source": "cpic",
-  "source_record_id": "110128/8481272",
+  "source_record_id": "110128/8610076",
   "gene": "HLA-B",
   "allele": "HLA-B*15:02",
   "allele_status": "negative",
@@ -3217,11 +3217,11 @@
   "hlaverify_2field": "B*15:02",
   "hlaverify_flags": "",
   "ipd_release": "3.66.0",
-  "source_version": "pair:87;recommendation:1"
+  "source_version": "pair:88;recommendation:1"
  },
  {
   "source": "cpic",
-  "source_record_id": "110128/8481273",
+  "source_record_id": "110128/8610077",
   "gene": "HLA-B",
   "allele": "HLA-B*15:02",
   "allele_status": "negative",
@@ -3245,11 +3245,11 @@
   "hlaverify_2field": "B*15:02",
   "hlaverify_flags": "",
   "ipd_release": "3.66.0",
-  "source_version": "pair:87;recommendation:1"
+  "source_version": "pair:88;recommendation:1"
  },
  {
   "source": "cpic",
-  "source_record_id": "110128/8481274",
+  "source_record_id": "110128/8610078",
   "gene": "HLA-B",
   "allele": "HLA-B*15:02",
   "allele_status": "negative",
@@ -3273,11 +3273,11 @@
   "hlaverify_2field": "B*15:02",
   "hlaverify_flags": "",
   "ipd_release": "3.66.0",
-  "source_version": "pair:87;recommendation:1"
+  "source_version": "pair:88;recommendation:1"
  },
  {
   "source": "cpic",
-  "source_record_id": "110128/8481275",
+  "source_record_id": "110128/8610079",
   "gene": "HLA-B",
   "allele": "HLA-B*15:02",
   "allele_status": "negative",
@@ -3301,11 +3301,11 @@
   "hlaverify_2field": "B*15:02",
   "hlaverify_flags": "",
   "ipd_release": "3.66.0",
-  "source_version": "pair:87;recommendation:1"
+  "source_version": "pair:88;recommendation:1"
  },
  {
   "source": "cpic",
-  "source_record_id": "110128/8481276",
+  "source_record_id": "110128/8610080",
   "gene": "HLA-B",
   "allele": "HLA-B*15:02",
   "allele_status": "negative",
@@ -3329,11 +3329,11 @@
   "hlaverify_2field": "B*15:02",
   "hlaverify_flags": "",
   "ipd_release": "3.66.0",
-  "source_version": "pair:87;recommendation:1"
+  "source_version": "pair:88;recommendation:1"
  },
  {
   "source": "cpic",
-  "source_record_id": "110128/8481277",
+  "source_record_id": "110128/8610081",
   "gene": "HLA-B",
   "allele": "HLA-B*15:02",
   "allele_status": "negative",
@@ -3357,11 +3357,11 @@
   "hlaverify_2field": "B*15:02",
   "hlaverify_flags": "",
   "ipd_release": "3.66.0",
-  "source_version": "pair:87;recommendation:1"
+  "source_version": "pair:88;recommendation:1"
  },
  {
   "source": "cpic",
-  "source_record_id": "110128/8481290",
+  "source_record_id": "110128/8610094",
   "gene": "HLA-B",
   "allele": "HLA-B*15:02",
   "allele_status": "negative",
@@ -3385,11 +3385,11 @@
   "hlaverify_2field": "B*15:02",
   "hlaverify_flags": "",
   "ipd_release": "3.66.0",
-  "source_version": "pair:87;recommendation:1"
+  "source_version": "pair:88;recommendation:1"
  },
  {
   "source": "cpic",
-  "source_record_id": "110128/8481258",
+  "source_record_id": "110128/8610062",
   "gene": "HLA-B",
   "allele": "HLA-B*15:02",
   "allele_status": "positive",
@@ -3413,11 +3413,11 @@
   "hlaverify_2field": "B*15:02",
   "hlaverify_flags": "",
   "ipd_release": "3.66.0",
-  "source_version": "pair:87;recommendation:1"
+  "source_version": "pair:88;recommendation:1"
  },
  {
   "source": "cpic",
-  "source_record_id": "110128/8481259",
+  "source_record_id": "110128/8610063",
   "gene": "HLA-B",
   "allele": "HLA-B*15:02",
   "allele_status": "positive",
@@ -3441,11 +3441,11 @@
   "hlaverify_2field": "B*15:02",
   "hlaverify_flags": "",
   "ipd_release": "3.66.0",
-  "source_version": "pair:87;recommendation:1"
+  "source_version": "pair:88;recommendation:1"
  },
  {
   "source": "cpic",
-  "source_record_id": "110128/8481260",
+  "source_record_id": "110128/8610064",
   "gene": "HLA-B",
   "allele": "HLA-B*15:02",
   "allele_status": "positive",
@@ -3469,11 +3469,11 @@
   "hlaverify_2field": "B*15:02",
   "hlaverify_flags": "",
   "ipd_release": "3.66.0",
-  "source_version": "pair:87;recommendation:1"
+  "source_version": "pair:88;recommendation:1"
  },
  {
   "source": "cpic",
-  "source_record_id": "110128/8481261",
+  "source_record_id": "110128/8610065",
   "gene": "HLA-B",
   "allele": "HLA-B*15:02",
   "allele_status": "positive",
@@ -3497,11 +3497,11 @@
   "hlaverify_2field": "B*15:02",
   "hlaverify_flags": "",
   "ipd_release": "3.66.0",
-  "source_version": "pair:87;recommendation:1"
+  "source_version": "pair:88;recommendation:1"
  },
  {
   "source": "cpic",
-  "source_record_id": "110128/8481262",
+  "source_record_id": "110128/8610066",
   "gene": "HLA-B",
   "allele": "HLA-B*15:02",
   "allele_status": "positive",
@@ -3525,11 +3525,11 @@
   "hlaverify_2field": "B*15:02",
   "hlaverify_flags": "",
   "ipd_release": "3.66.0",
-  "source_version": "pair:87;recommendation:1"
+  "source_version": "pair:88;recommendation:1"
  },
  {
   "source": "cpic",
-  "source_record_id": "110128/8481263",
+  "source_record_id": "110128/8610067",
   "gene": "HLA-B",
   "allele": "HLA-B*15:02",
   "allele_status": "positive",
@@ -3553,11 +3553,11 @@
   "hlaverify_2field": "B*15:02",
   "hlaverify_flags": "",
   "ipd_release": "3.66.0",
-  "source_version": "pair:87;recommendation:1"
+  "source_version": "pair:88;recommendation:1"
  },
  {
   "source": "cpic",
-  "source_record_id": "110128/8481271",
+  "source_record_id": "110128/8610075",
   "gene": "HLA-B",
   "allele": "HLA-B*15:02",
   "allele_status": "positive",
@@ -3581,11 +3581,11 @@
   "hlaverify_2field": "B*15:02",
   "hlaverify_flags": "",
   "ipd_release": "3.66.0",
-  "source_version": "pair:87;recommendation:1"
+  "source_version": "pair:88;recommendation:1"
  },
  {
   "source": "cpic",
-  "source_record_id": "110128/8481278",
+  "source_record_id": "110128/8610082",
   "gene": "HLA-B",
   "allele": "HLA-B*15:02",
   "allele_status": "positive",
@@ -3609,11 +3609,11 @@
   "hlaverify_2field": "B*15:02",
   "hlaverify_flags": "",
   "ipd_release": "3.66.0",
-  "source_version": "pair:87;recommendation:1"
+  "source_version": "pair:88;recommendation:1"
  },
  {
   "source": "cpic",
-  "source_record_id": "110128/8481279",
+  "source_record_id": "110128/8610083",
   "gene": "HLA-B",
   "allele": "HLA-B*15:02",
   "allele_status": "positive",
@@ -3637,11 +3637,11 @@
   "hlaverify_2field": "B*15:02",
   "hlaverify_flags": "",
   "ipd_release": "3.66.0",
-  "source_version": "pair:87;recommendation:1"
+  "source_version": "pair:88;recommendation:1"
  },
  {
   "source": "cpic",
-  "source_record_id": "110128/8481280",
+  "source_record_id": "110128/8610084",
   "gene": "HLA-B",
   "allele": "HLA-B*15:02",
   "allele_status": "positive",
@@ -3665,11 +3665,11 @@
   "hlaverify_2field": "B*15:02",
   "hlaverify_flags": "",
   "ipd_release": "3.66.0",
-  "source_version": "pair:87;recommendation:1"
+  "source_version": "pair:88;recommendation:1"
  },
  {
   "source": "cpic",
-  "source_record_id": "110128/8481281",
+  "source_record_id": "110128/8610085",
   "gene": "HLA-B",
   "allele": "HLA-B*15:02",
   "allele_status": "positive",
@@ -3693,11 +3693,11 @@
   "hlaverify_2field": "B*15:02",
   "hlaverify_flags": "",
   "ipd_release": "3.66.0",
-  "source_version": "pair:87;recommendation:1"
+  "source_version": "pair:88;recommendation:1"
  },
  {
   "source": "cpic",
-  "source_record_id": "110128/8481282",
+  "source_record_id": "110128/8610086",
   "gene": "HLA-B",
   "allele": "HLA-B*15:02",
   "allele_status": "positive",
@@ -3721,11 +3721,11 @@
   "hlaverify_2field": "B*15:02",
   "hlaverify_flags": "",
   "ipd_release": "3.66.0",
-  "source_version": "pair:87;recommendation:1"
+  "source_version": "pair:88;recommendation:1"
  },
  {
   "source": "cpic",
-  "source_record_id": "110128/8481283",
+  "source_record_id": "110128/8610087",
   "gene": "HLA-B",
   "allele": "HLA-B*15:02",
   "allele_status": "positive",
@@ -3749,11 +3749,11 @@
   "hlaverify_2field": "B*15:02",
   "hlaverify_flags": "",
   "ipd_release": "3.66.0",
-  "source_version": "pair:87;recommendation:1"
+  "source_version": "pair:88;recommendation:1"
  },
  {
   "source": "cpic",
-  "source_record_id": "110128/8481291",
+  "source_record_id": "110128/8610095",
   "gene": "HLA-B",
   "allele": "HLA-B*15:02",
   "allele_status": "positive",
@@ -3777,7 +3777,7 @@
   "hlaverify_2field": "B*15:02",
   "hlaverify_flags": "",
   "ipd_release": "3.66.0",
-  "source_version": "pair:87;recommendation:1"
+  "source_version": "pair:88;recommendation:1"
  },
  {
   "source": "pharmgkb",
@@ -5685,7 +5685,7 @@
  },
  {
   "source": "cpic",
-  "source_record_id": "110078/8479701",
+  "source_record_id": "110078/8608483",
   "gene": "HLA-B",
   "allele": "HLA-B*57:01",
   "allele_status": "negative",
@@ -5709,11 +5709,11 @@
   "hlaverify_2field": "B*57:01",
   "hlaverify_flags": "",
   "ipd_release": "3.66.0",
-  "source_version": "pair:90;recommendation:1"
+  "source_version": "pair:91;recommendation:1"
  },
  {
   "source": "cpic",
-  "source_record_id": "110078/8479702",
+  "source_record_id": "110078/8608484",
   "gene": "HLA-B",
   "allele": "HLA-B*57:01",
   "allele_status": "positive",
@@ -5737,7 +5737,7 @@
   "hlaverify_2field": "B*57:01",
   "hlaverify_flags": "",
   "ipd_release": "3.66.0",
-  "source_version": "pair:90;recommendation:1"
+  "source_version": "pair:91;recommendation:1"
  },
  {
   "source": "pharmgkb",
@@ -5825,7 +5825,7 @@
  },
  {
   "source": "cpic",
-  "source_record_id": "110079/8479703",
+  "source_record_id": "110079/8608485",
   "gene": "HLA-B",
   "allele": "HLA-B*58:01",
   "allele_status": "negative",
@@ -5849,11 +5849,11 @@
   "hlaverify_2field": "B*58:01",
   "hlaverify_flags": "",
   "ipd_release": "3.66.0",
-  "source_version": "pair:91;recommendation:1"
+  "source_version": "pair:92;recommendation:1"
  },
  {
   "source": "cpic",
-  "source_record_id": "110079/8479704",
+  "source_record_id": "110079/8608486",
   "gene": "HLA-B",
   "allele": "HLA-B*58:01",
   "allele_status": "positive",
@@ -5877,7 +5877,7 @@
   "hlaverify_2field": "B*58:01",
   "hlaverify_flags": "",
   "ipd_release": "3.66.0",
-  "source_version": "pair:91;recommendation:1"
+  "source_version": "pair:92;recommendation:1"
  },
  {
   "source": "pharmgkb",

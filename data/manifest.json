@@ -1,8 +1,8 @@
 {
  "name": "hla-pgx-open",
- "snapshot_date": "2026-10-26",
- "built_at": "2026-10-26T17:25:47+00:00",
- "git_commit": "d8078bd1385dcba8dfe09b2920a470b5ddfb2f35",
+ "snapshot_date": "2026-11-02",
+ "built_at": "2026-11-02T20:48:38+00:00",
+ "git_commit": "bd34cd9d51e8c153770c0a7aa8bb37f409850315",
  "license": "CC-BY-SA-4.0",
  "builder": "scripts/build.py@0.1.0",
  "sources": {
@@ -75,27 +75,27 @@
  },
  "files": {
   "cpic_hla_allele_frequencies.csv": {
-   "sha256": "595ee3c272b85229ddf60d1240bafebfc392db5675d4062269e9b9544b7eb1fc",
+   "sha256": "a8db5c13eb8d9b4b63005e6f2243fc1ae63c3c94b46e1f298af6be27ae48be6a",
    "bytes": 2040,
    "rows": 36
   },
   "cpic_hla_pairs.csv": {
-   "sha256": "7d15aa432e2b80d89e25a3ef150ffac64da69bdc08360d35418014c563f93efc",
+   "sha256": "972841c192433dd17abb90e8d35d89c07322d96cf9f37b623bb75863f7eb92f0",
    "bytes": 2289,
    "rows": 16
   },
   "cpic_hla_recommendations.csv": {
-   "sha256": "4ee1def96b17c35b9c5eaa561ad60e0392f5292033eb4ce2c938739772f9ad76",
+   "sha256": "e602fced5e05ae9737d00a238883f5b4397e441a0a9e29bc7f1c129eae3a6304",
    "bytes": 77372,
    "rows": 100
   },
   "hla_pgx.csv": {
-   "sha256": "0afd3cf1042186d4260d4eb6b5555c66a3c48aade3114cf6443abd2d4652bfa4",
+   "sha256": "c141d8443162cfe897d29f441e823cd28a6e60c1331b8df9c9bdc2d31cf27adc",
    "bytes": 198354,
    "rows": 351
   },
   "hla_pgx.json": {
-   "sha256": "9ea2ac5c27710150286e59091a8bbdb1b80caeb5c1208a4901e529160031a5ae",
+   "sha256": "306cc378152ec28824927fc771a550391d415ad129d417cb2c87de9c60efd74e",
    "bytes": 393155
   },
   "pharmgkb_hla_clinical_annotations.csv": {
@@ -104,7 +104,7 @@
    "rows": 240
   },
   "sources/cpic_pull.json": {
-   "sha256": "f6644443382129af36777bf562b6f8df62ff6e1f03cff43be6290ba291a36083",
+   "sha256": "d7061775dd1eaa3dfc346bcf8532c30b35e0305df75f501e60cdc6260e942724",
    "bytes": 437
   },
   "sources/pharmgkb_LICENSE.txt": {
